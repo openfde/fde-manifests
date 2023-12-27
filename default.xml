@@ -6,7 +6,7 @@
            review="review.lineageos.org" />
   <remote  name="gitee"
 	  fetch="https://gitee.com/openfde/"
-	  revision="ref/tags/1.0.5" />
+	  revision="refs/tags/1.0.5" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
