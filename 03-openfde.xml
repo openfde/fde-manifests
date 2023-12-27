@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="device/openfde/fde" name="device_fde" groups="fde,openfde" remote="gitee" revision="fde_w" />
+    <project path="device/openfde/fde" name="device_fde" groups="fde,openfde" remote="gitee"  />
 </manifest>
