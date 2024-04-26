@@ -1,3 +1,3 @@
-repo init -u https://gitee.com/openfde/manifests -b 1.0.5 --git-lfs
+repo init -u https://gitee.com/openfde/manifests -b fde_w --git-lfs
 
 repo sync -j4
