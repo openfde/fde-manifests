@@ -1,3 +1,3 @@
-repo init -u https://github.com/openfde/manifests -b fde_w --git-lfs
+repo init -u https://github.com/openfde/fde-manifests -b fde_w --git-lfs
 
 repo sync -j4
