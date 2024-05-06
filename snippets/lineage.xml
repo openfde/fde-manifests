@@ -3,10 +3,10 @@
 
   <!-- LineageOS additions -->
   <project path="android" name="LineageOS/android" groups="lineage" />
-  <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" groups="lineage" />
-  <project path="device/lineage/car" name="LineageOS/android_device_lineage_car" groups="lineage" />
-  <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" groups="lineage" />
-  <project path="external/bash" name="LineageOS/android_external_bash" groups="lineage" />
+  <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" groups="lineage" revision="101a8ddd11f53ff37fa8f106fc12d08b3d19ddc0" />
+  <project path="device/lineage/car" name="LineageOS/android_device_lineage_car" groups="lineage" revision="ac49fa77109148dfe3d6e433e179b09d83aa1e69" />
+  <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" groups="lineage" revision="02f04d2b0a57f1c7435dc9f2ce8fac2640b38782" />
+  <project path="external/bash" name="LineageOS/android_external_bash" groups="lineage" revision="f7be77e1db4d45c29b16c1e8d148e0ddf6bb8c62" />
   <project path="external/chromium-webview/patches" name="LineageOS/android_external_chromium-webview_patches" groups="lineage,pdk" revision="main" >
     <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
     <linkfile src="CleanSpec.mk" dest="external/chromium-webview/CleanSpec.mk" />
@@ -16,60 +16,60 @@
   <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" groups="lineage,pdk" revision="main" />
 	<!--<project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="lineage,pdk" revision="main" /> -->
   <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" groups="lineage,pdk" revision="main" />
-  <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" groups="lineage" />
-  <project path="external/htop" name="LineageOS/android_external_htop" groups="lineage" />
-  <project path="external/libncurses" name="LineageOS/android_external_libncurses" groups="lineage" />
-  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" groups="lineage" />
-  <project path="external/nano" name="LineageOS/android_external_nano" groups="lineage" />
-  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" groups="lineage" />
-  <project path="external/p7zip" name="LineageOS/android_external_p7zip" groups="lineage" />
-  <project path="external/pigz" name="LineageOS/android_external_pigz" groups="lineage" />
-  <project path="external/rsync" name="LineageOS/android_external_rsync" groups="lineage" />
-  <project path="external/unrar" name="LineageOS/android_external_unrar" groups="lineage" />
-  <project path="external/vim" name="LineageOS/android_external_vim" groups="lineage" />
-  <project path="external/zip" name="LineageOS/android_external_zip" groups="lineage" />
-  <project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" groups="lineage" />
-  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" groups="lineage" />
-  <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" groups="lineage" />
+  <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" groups="lineage" revision="1d003c36579a3b1dd1f640aa903c0e5d40fe820b" />
+  <project path="external/htop" name="LineageOS/android_external_htop" groups="lineage" revision="5bbeb9e90187551b5cc51b85799d3caf75a10544" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" groups="lineage" revision="61a6a4ffcb72fc2961951c02bdd085895e377171" />
+  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" groups="lineage" revision="e4fb0694ac4eb888f098598bd895587b71747ce5" />
+  <project path="external/nano" name="LineageOS/android_external_nano" groups="lineage" revision="67ac008cbde36b2991a4fb5e5c9063d49b733ad1" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" groups="lineage" revision="7471d6403640f1cd0878cc2c87279571a497bcb7" />
+  <project path="external/p7zip" name="LineageOS/android_external_p7zip" groups="lineage" revision="6f674e41e9e243e24e8e334f0db15a325a03b35a" />
+  <project path="external/pigz" name="LineageOS/android_external_pigz" groups="lineage" revision="b825616338a219976c6e7d8a31b474242bb6cf1d" />
+  <project path="external/rsync" name="LineageOS/android_external_rsync" groups="lineage" revision="1f245165a608cf32490f75e55077e6876ee22b3d" />
+  <project path="external/unrar" name="LineageOS/android_external_unrar" groups="lineage" revision="17c84c8e627f81a36ad555e7a641a3401544fcbc" />
+  <project path="external/vim" name="LineageOS/android_external_vim" groups="lineage" revision="7a3f2feaaf576804df795b1cbd76f38c7b98cf17" />
+  <project path="external/zip" name="LineageOS/android_external_zip" groups="lineage" revision="c4117e141be848db220f292f08006182427cd93f" />
+  <project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" groups="lineage" revision="5e07a5b4b6dd32435455b550dc2d4c96d1d71ee1" />
+  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" groups="lineage" revision="cfcb4c8a978a8627a5d6913089d9bb92d7356877" />
+  <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" groups="lineage" revision="3e298771b18d6c0e28350f50c7204c3c036662b8" />
   <project path="lineage-sdk" name="lineageos_android_lineage-sdk" remote="fde"  groups="fde"  />
-  <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" groups="lineage" />
-  <project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" groups="lineage" />
-  <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" groups="lineage" />
-  <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" groups="lineage" />
-  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" groups="lineage" />
-  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" groups="lineage" />
-  <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" groups="lineage" />
-  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" groups="lineage" />
-  <project path="packages/apps/LineageCustomizer" name="LineageOS/android_packages_apps_LineageCustomizer" groups="lineage" />
+  <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" groups="lineage" revision="23b1cf1805e26a2a97c24cd1b2751e80d2cfbf3d" />
+  <project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" groups="lineage" revision="d084fb949a8d1075adce1c9afb523a597a5a5831" />
+  <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" groups="lineage" revision="9f82d3ed4cc63f70effca35f3acf0eae44dbc0ce" />
+  <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" groups="lineage" revision="7d960b78c314d1a1a24674709c96414ce5c63fe6" />
+  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" groups="lineage" revision="f4cbae82c3e761a489009cca42457456da1a9db2" />
+  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" groups="lineage" revision="c8664126026de37a442dba996db8bc4d3606dc41" />
+  <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" groups="lineage" revision="6f4cedc10afbb003bddc979eac7c65af24a3ab66" />
+  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" groups="lineage" revision="b3b92da43bb02db69cffe76b854940c8bb634002" />
+  <project path="packages/apps/LineageCustomizer" name="LineageOS/android_packages_apps_LineageCustomizer" groups="lineage" revision="f582a5a2d787f9f860b65e4387797f5c50acb6ba" />
   <project path="packages/apps/LineageParts" name="lineageos_android_packages_apps_lineageparts" remote="fde" groups="fde"  />
-  <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" groups="lineage" />
-  <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" groups="lineage" />
-  <project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" groups="lineage" />
+  <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" groups="lineage" revision="8dee69242cb49fd7bcfee72bb28be0e693127096" />
+  <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" groups="lineage" revision="c9b8b0b5da13b91405471cb434651f0ecf1eb85c" />
+  <project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" groups="lineage" revision="68dc4f16bc0c383bec3b101b6a33606f3196acb4" />
   <project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" groups="lineage" />
-  <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" groups="lineage" />
-  <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" groups="lineage" />
+  <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" groups="lineage" revision="b13034a011b9cc08274c2bc4b90b8213d4293e97" />
+  <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" groups="lineage" revision="df790318398b9ba2278389edf54fbf5ac182b025" />
   <project path="packages/apps/Trebuchet" name="lineageos_android_packages_apps_trebuchet" remote="fde" groups="fde"  />
-  <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" groups="lineage" />
-  <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" groups="lineage" />
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" groups="lineage" />
-  <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" groups="lineage" />
-  <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" groups="lineage" />
-  <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" groups="lineage" />
-  <project path="vendor/crowdin" name="LineageOS/android_vendor_crowdin" groups="lineage" />
+  <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" groups="lineage" revision="9ab1ae0ded06e25b30ffde0ae0a747736e4dec1c" />
+  <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" groups="lineage" revision="0a9abbda309b4f4ec73cd6bf130fead61cadb8b2" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" groups="lineage" revision="16b2d48fa1f44181990a313195c6e6037011369c" />
+  <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" groups="lineage" revision="2ffd09a03179514217dbdb7305418a1c50daf677" />
+  <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" groups="lineage" revision="302f18415ab0da9ad2cc0190bdc2c38eaf30e2e0" />
+  <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" groups="lineage" revision="18705c3129dbbf266131408faa4522aafa1ecab7" />
+  <project path="vendor/crowdin" name="LineageOS/android_vendor_crowdin" groups="lineage" revision="2d24c4287d2584556ab4871749a99eab0f9362df" />
   <project path="vendor/lineage" name="lineageos_android_vendor_lineage" remote="fde" groups="fde"  />
 
   <!-- CodeAurora additions -->
-  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="lineage,qcom,pdk-qcom" />
+  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="lineage,qcom,pdk-qcom" revision="3415a281fcdc9e0d75b25d3fb9ba3e47da29cffb" />
   <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy" groups="lineage,qcom,pdk-qcom" revision="lineage-18.1-legacy" />
   <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" groups="lineage,qcom,pdk-qcom" revision="lineage-18.1-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="lineage,qcom,pdk-qcom" />
-  <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="lineage" />
-  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="lineage" />
-  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="lineage" />
-  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" groups="lineage" />
-  <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" groups="lineage" />
-  <project path="external/connectivity" name="LineageOS/android_external_connectivity" groups="lineage,qcom,pdk-qcom" />
-  <project path="external/json-c" name="LineageOS/android_external_json-c" groups="lineage,qcom,pdk-qcom" />
+  <project path="device/qcom/sepolicy_vndr" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="lineage,qcom,pdk-qcom" revision="6c122b26629f84c8383d1db583fe5ae0b59fcfaa" />
+  <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="lineage" revision="53546c7ceef11b3078bfbb9487bb25a0456533e2" />
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="lineage" revision="c674e613ac60fcd7583ca26bbb8878eec6aec851" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="lineage" revision="6b3d142c5609fb08276ea0a5033145b1c1ae3110" />
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" groups="lineage" revision="85290ef0527d2f4cf82fdc3ffc290c970ca57f6b" />
+  <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" groups="lineage" revision="5f0fab93b14f1163ac486f83d530f7d17163caee" />
+  <project path="external/connectivity" name="LineageOS/android_external_connectivity" groups="lineage,qcom,pdk-qcom" revision="0bcb1672a85eaa9e0e198a1aa7b5f6fe37884a7a" />
+  <project path="external/json-c" name="LineageOS/android_external_json-c" groups="lineage,qcom,pdk-qcom" revision="06a40b8b3b99b9cc223f8328b5ed54d5afce8204" />
   <project path="hardware/qcom-caf/apq8084/audio" name="LineageOS/android_hardware_qcom_audio" groups="lineage,qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-apq8084" />
   <project path="hardware/qcom-caf/apq8084/display" name="LineageOS/android_hardware_qcom_display" groups="lineage,pdk-qcom,qcom,qcom_display" revision="lineage-18.1-caf-apq8084" />
   <project path="hardware/qcom-caf/apq8084/media" name="LineageOS/android_hardware_qcom_media" groups="lineage,qcom,pdk-qcom" revision="lineage-18.1-caf-apq8084" />
@@ -140,37 +140,37 @@
   <project path="hardware/qcom-caf/sm8350/audio" name="LineageOS/android_hardware_qcom_audio" groups="lineage,qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/display" name="LineageOS/android_hardware_qcom_display" groups="lineage,pdk-qcom,qcom,qcom_display" revision="lineage-18.1-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/media" name="LineageOS/android_hardware_qcom_media" groups="lineage,qcom,pdk-qcom" revision="lineage-18.1-caf-sm8350" />
-  <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="lineage,qcom,pdk-qcom" />
-  <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="lineage,qcom,pdk-qcom" />
+  <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="lineage,qcom,pdk-qcom" revision="08cefce67ef2ee2ad6faccad144665a50ca18673" />
+  <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="lineage,qcom,pdk-qcom" revision="a2c6ad6f6443dee7ec4b48f788a2c8f7ee351aa2" />
   <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="lineage,qcom_wlan,pdk-qcom" revision="lineage-18.1-caf" />
-  <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" groups="lineage" />
-  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" groups="lineage" />
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" groups="lineage" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" groups="lineage" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" groups="lineage" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" groups="lineage" />
+  <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" groups="lineage" revision="ffd4bcb0e07a135e9bb65b07e33f6c8f5f1c47b9" />
+  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" groups="lineage" revision="aa73e97ce334422309585057987787a5125ada58" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" groups="lineage" revision="6b30fe8b2fba967bc2f00bb191d57ef420c789f9" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" groups="lineage" revision="17cb7edf8ad3aa239f39e4b823e881284f789343" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" groups="lineage" revision="cfe757afa291b1b7dc9c6376ef538ac51c9d174d" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" groups="lineage" revision="3fd5f71db27b43eec4e122bbc1c6e5a8c48ce584" />
   <project path="vendor/nxp/opensource/pn5xx/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" revision="lineage-18.1-pn5xx" groups="lineage" />
   <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" revision="lineage-18.1-pn5xx" groups="lineage" />
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" revision="lineage-18.1-sn100x" groups="lineage" />
   <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" revision="lineage-18.1-sn100x" groups="lineage" />
-  <project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" groups="lineage,qcom,pdk-qcom" />
-  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal" groups="lineage,qcom,pdk-qcom"/>
-  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" groups="lineage,qcom,pdk-qcom"/>
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="lineage,qcom,pdk-qcom"/>
-  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="LineageOS/android_vendor_qcom_opensource_bluetooth_ext" groups="lineage,qcom,pdk-qcom"/>
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" groups="lineage,qcom,pdk-qcom" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="LineageOS/android_vendor_qcom_opensource_system_bt" groups="lineage,qcom,pdk-qcom"/>
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" groups="lineage,qcom,pdk-qcom" />
-  <project path="vendor/qcom/opensource/fm-commonsys" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" groups="lineage,qcom,qcom_fm" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="lineage,qcom,pdk-qcom" />
-  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" groups="lineage,qcom,pdk-qcom" />
-  <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" groups="lineage,qcom,pdk-qcom" />
-  <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="lineage,qcom,pdk-qcom" />
-  <project path="vendor/qcom/opensource/power" name="LineageOS/android_vendor_qcom_opensource_power" groups="lineage,qcom,pdk-qcom" />
-  <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" groups="lineage,qcom,pdk-qcom" />
-  <project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" groups="lineage,qcom,pdk-qcom" />
-  <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="lineage,qcom,pdk-qcom" />
-  <project path="vendor/qcom/opensource/wfd-commonsys" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="lineage,qcom,pdk" />
+  <project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" groups="lineage,qcom,pdk-qcom" revision="77abc79effe30e310908bf7c5a133674bd886f30" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal" groups="lineage,qcom,pdk-qcom" revision="6fd1cb841731827ae15cca4b6edae5cdbcf177dc" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" groups="lineage,qcom,pdk-qcom" revision="df40ec386e783660c251d2bafcc5dd7d41098903" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="lineage,qcom,pdk-qcom" revision="244be5cd87088cb85dfba8fa7891df3b54854718" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="LineageOS/android_vendor_qcom_opensource_bluetooth_ext" groups="lineage,qcom,pdk-qcom" revision="7a9e33ee59493bc4adcae1e0f77dc7b89e3fecb6" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" groups="lineage,qcom,pdk-qcom" revision="710bf7b532530d0fbd7ec4d51ae16fafbdaeb95b" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="LineageOS/android_vendor_qcom_opensource_system_bt" groups="lineage,qcom,pdk-qcom" revision="aa78236f58c780a2275297f7c2a0ce08e2f654d7" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" groups="lineage,qcom,pdk-qcom" revision="aaa8a78850cb6c557045321d46d54194fbfa2f68" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" groups="lineage,qcom,qcom_fm" revision="eae6909108afd9035b40685111e1fd7b3dfe58d9" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="lineage,qcom,pdk-qcom" revision="582dffc7248802d33a7fef490484e5c794413ff6" />
+  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" groups="lineage,qcom,pdk-qcom" revision="821b3b0a887f30a6784969d5da73cdde03b9d456" />
+  <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" groups="lineage,qcom,pdk-qcom" revision="f50e5c3db5a69932a192f1716b9d80fb871c585c" />
+  <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="lineage,qcom,pdk-qcom" revision="e33227ed63c6b8e7df0b638f556bf14fa99acd83" />
+  <project path="vendor/qcom/opensource/power" name="LineageOS/android_vendor_qcom_opensource_power" groups="lineage,qcom,pdk-qcom" revision="46ec6ba9a67695cc90c23b122792b3b870aceb54" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" groups="lineage,qcom,pdk-qcom" revision="d016322bd511e4adb759f1b89ce4137f3b74eb4c" />
+  <project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" groups="lineage,qcom,pdk-qcom" revision="ba7cebfb062bb8619ac6d1029c5e09d6ded66091" />
+  <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="lineage,qcom,pdk-qcom" revision="0ba562c54613b3ac2d8c92844b1b9c23665507e3" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="lineage,qcom,pdk" revision="2fefd776cb17654b676c8a567668ed47e4d18b66" />
 
   <!-- Infrastructure -->
   <project path="lineage/charter" name="LineageOS/charter" groups="lineage,infra" revision="master" />
