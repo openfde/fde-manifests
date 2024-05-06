@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- LineageOS additions -->
-  <project path="android" name="LineageOS/android" groups="lineage" />
+  <project path="android" name="LineageOS/android" groups="lineage" revision="fd0f1538a4e11cf456529c9e9a6cd55508b7592c" />
   <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" groups="lineage" revision="101a8ddd11f53ff37fa8f106fc12d08b3d19ddc0" />
   <project path="device/lineage/car" name="LineageOS/android_device_lineage_car" groups="lineage" revision="ac49fa77109148dfe3d6e433e179b09d83aa1e69" />
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" groups="lineage" revision="02f04d2b0a57f1c7435dc9f2ce8fac2640b38782" />
