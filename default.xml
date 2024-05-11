@@ -570,7 +570,7 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/PermissionController" name="LineageOS/android_packages_apps_PackageInstaller" groups="lineage,pdk-cw-fs,pdk-fs" revision="7b39b5a29b1971725ba52d9395645d14b395f678" />
   <project path="packages/apps/PhoneCommon" name="LineageOS/android_packages_apps_PhoneCommon" groups="lineage,pdk-cw-fs,pdk-fs" revision="98f31e80373d32aa57ee0a88e76af06cc77efbd2" />
-  <project path="packages/apps/Provision" name="platform_packages_apps_provision" groups="pdk-fs" remote="fde" />
+  <project path="packages/apps/Provision" name="platform_packages_apps_provision" groups="fde,pdk-fs" remote="fde" />
   <project path="packages/apps/QuickAccessWallet" name="platform/packages/apps/QuickAccessWallet" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" groups="lineage,pdk-fs" revision="f31ce9a17f776e22f17e8cc7821eb5a1db6a3a7b" />
   <project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" remote="aosp" />
