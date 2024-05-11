@@ -429,7 +429,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
   <project path="frameworks/av" name="lineageos_android_frameworks_av" groups="fde,pdk" remote="fde"  />
-  <project path="frameworks/base" name="lineageos_android_frameworks_base" groups="fde,pdk-cw-fs,pdk-fs" remote="fde"  />
+  <project path="frameworks/base" name="lineageos_android_frameworks_base" groups="fde,pdk-cw-fs,pdk-fs,sync" remote="fde"  />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
@@ -575,7 +575,7 @@
   <project path="packages/apps/SafetyRegulatoryInfo" name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" groups="lineage,pdk-fs" revision="f31ce9a17f776e22f17e8cc7821eb5a1db6a3a7b" />
   <project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SecureElement" name="LineageOS/android_packages_apps_SecureElement" groups="lineage,apps_se,pdk-fs" revision="57ba8db9d456de7ce36303676d5238021c96be50" />
-  <project path="packages/apps/Settings" name="lineageos_android_packages_apps_settings" groups="fde,pdk-fs" remote="fde"  />
+  <project path="packages/apps/Settings" name="lineageos_android_packages_apps_settings" groups="fde,pdk-fs,sync" remote="fde"  />
   <project path="packages/apps/SettingsIntelligence" name="LineageOS/android_packages_apps_SettingsIntelligence" groups="lineage,pdk-fs" revision="da232f4c56e3d5268d96722c8cd1cb18a1cc40b2" />
   <project path="packages/apps/Stk" name="LineageOS/android_packages_apps_Stk" groups="lineage,apps_stk,pdk-fs" revision="642461c6ccb16a568bdaeb46651160697983b3ee" />
   <project path="packages/apps/StorageManager" name="LineageOS/android_packages_apps_StorageManager" groups="lineage,pdk-fs" revision="1b09d216a30621f269bcd137148cc0f6292ce7f0" />
