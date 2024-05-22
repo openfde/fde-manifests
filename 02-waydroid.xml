@@ -14,7 +14,7 @@
   <project path="external/pulseaudio" name="waydroid_android_external_pulseaudio" remote="fde" revision="refs/heads/lineage-17.1" />
 
   <!-- Display -->
-  <project path="external/mesa" name="waydroid_android_external_mesa3d" remote="fde" groups="fde"  revision="refs/heads/lineage-18.1" /> 
+  <project path="external/mesa" name="waydroid_android_external_mesa3d" remote="fde" groups="fde"  revision="refs/heads/fde_w" /> 
   <project path="external/libdrm" name="waydroid_android_external_libdrm" remote="fde" revision="refs/heads/lineage-18.1" />
   <project path="external/llvm-project" name="waydroid_android_external_llvm-project" remote="fde" revision="refs/heads/lineage-18.1"/>
   <project path="external/minigbm" name="waydroid_android_external_minigbm" remote="fde" revision="refs/heads/lineage-18.1"/>
