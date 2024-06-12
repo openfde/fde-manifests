@@ -5,7 +5,7 @@
 	  fetch="https://mirrors.tuna.tsinghua.edu.cn/git/lineageOS/"
            review="review.lineageos.org" />
   <remote  name="fde"
-	  fetch="ssh://git@github.com:openfde/"
+	  fetch="ssh://git@github.com/openfde/"
 	  revision="refs/heads/fde_w" />
 
   <remote  name="private"
