@@ -530,7 +530,7 @@
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" remote="aosp" />
   <project path="kernel/prebuilts/4.19/arm64" name="kernel/prebuilts/4.19/arm64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" remote="aosp" />
-  <project path="libcore" name="Lineageos_android_libcore" groups="fde,pdk" revision="01964ae186f3dd732bb2d16cc55dd184737b61a4" remote="fde" />
+  <project path="libcore" name="Lineageos_android_libcore" groups="fde,pdk" revision="fde_w" remote="fde" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
   <project path="packages/apps/BasicSmsReceiver" name="LineageOS/android_packages_apps_BasicSmsReceiver" groups="lineage,pdk-cw-fs,pdk-fs" revision="24073c663e084f5a1c0ce2dc543af30d6643e9be" />
   <project path="packages/apps/Bluetooth" name="LineageOS/android_packages_apps_Bluetooth" groups="lineage,pdk-cw-fs,pdk-fs" revision="7fadfc484a1308981d6257b561907fd549edf764" />
@@ -608,7 +608,7 @@
   <project path="packages/providers/CallLogProvider" name="LineageOS/android_packages_providers_CallLogProvider" groups="lineage,pdk-fs" revision="83ed05c3dae13a06a271b2e88ca025b5fe019430" />
   <project path="packages/providers/ContactsProvider" name="LineageOS/android_packages_providers_ContactsProvider" groups="lineage,pdk-cw-fs,pdk-fs" revision="d2c8c9739c3ebc1d61b3d8b3edd228ac75674742" />
   <project path="packages/providers/DownloadProvider" name="LineageOS/android_packages_providers_DownloadProvider" groups="lineage,pdk-cw-fs,pdk-fs" revision="399000ad2d902fbfc0e76b469f544ec18129c6b2" />
-  <project path="packages/providers/MediaProvider" name="Lineageos_android_packages_providers_MediaProvider" groups="fde,pdk-cw-fs,pdk-fs" revision="6ceb9e7c73bd7084bb343eb5c9e2cba12b376cff" remote="fde" />
+  <project path="packages/providers/MediaProvider" name="Lineageos_android_packages_providers_MediaProvider" groups="fde,pdk-cw-fs,pdk-fs" revision="fde_w" remote="fde" />
   <project path="packages/providers/PartnerBookmarksProvider" name="LineageOS/android_packages_providers_PartnerBookmarksProvider" groups="lineage,pdk-fs" revision="9c3b541b4357011de2047a2e24f92a63c6d8d8a0" />
   <project path="packages/providers/TelephonyProvider" name="LineageOS/android_packages_providers_TelephonyProvider" groups="lineage,pdk-cw-fs,pdk-fs" revision="d9020fd565eb7e0457e7b17290ba3b926b34682b" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" remote="aosp" />
