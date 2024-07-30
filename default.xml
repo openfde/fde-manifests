@@ -463,7 +463,7 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" remote="aosp" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="lineage,pdk" revision="ec39e72fbeda08ba91b3b05e8123de8477d470b8" />
+  <project path="hardware/broadcom/libbt" name="lineageos_android_hardware_broadcom_libbt" groups="fde,lineage,pdk" revision="fde_w" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="aosp" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" remote="aosp" />
   <project path="hardware/google/av" name="platform/hardware/google/av" groups="pdk" remote="aosp" />
@@ -533,7 +533,7 @@
   <project path="libcore" name="Lineageos_android_libcore" groups="fde,pdk" revision="fde_w" remote="fde" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
   <project path="packages/apps/BasicSmsReceiver" name="LineageOS/android_packages_apps_BasicSmsReceiver" groups="lineage,pdk-cw-fs,pdk-fs" revision="24073c663e084f5a1c0ce2dc543af30d6643e9be" />
-  <project path="packages/apps/Bluetooth" name="LineageOS/android_packages_apps_Bluetooth" groups="lineage,pdk-cw-fs,pdk-fs" revision="7fadfc484a1308981d6257b561907fd549edf764" />
+  <project path="packages/apps/Bluetooth" name="lineageos_android_packages_apps_Bluetooth" groups="fde,lineage,pdk-cw-fs,pdk-fs" revision="fde_w" />
   <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="lineage,pdk-fs" revision="ba73b97e236cb7bf15d91940b1639300298809e3" />
   <project path="packages/apps/Car/Calendar" name="platform/packages/apps/Car/Calendar" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/Cluster" name="platform/packages/apps/Car/Cluster" groups="pdk-fs" remote="aosp" />
