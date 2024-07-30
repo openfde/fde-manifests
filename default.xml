@@ -688,7 +688,7 @@
   <project path="prebuilts/vndk/v29" name="platform/prebuilts/vndk/v29" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/apex" name="platform/system/apex" groups="pdk" remote="aosp" />
-  <project path="system/bt" name="LineageOS/android_system_bt" groups="lineage,pdk" revision="abb80f9c288fe41be36e576c6cc65a9b67286fc2" />
+  <project path="system/bt" name="lineageos_android_system_bt" groups="fde,lineage,pdk" revision="fde_w" remote="fde"  />
   <project path="system/bpf" name="platform_system_bpf" groups="fde,pdk" remote="fde" />
   <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" remote="aosp" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" remote="aosp" />
