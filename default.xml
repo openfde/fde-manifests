@@ -52,7 +52,7 @@
   <project path="device/generic/car" name="device/generic/car" groups="pdk" remote="aosp" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" remote="aosp" />
   <project path="device/generic/goldfish" name="LineageOS/android_device_generic_goldfish" groups="lineage,pdk" revision="4394963c2eac6a8cd9716e815a63b33dceaba640" />
-  <project path="device/generic/goldfish-opengl" name="lineageos_android_device_generic_goldfish-opengl" groups="fde,lineage,pdk" remote="fde" />
+  <project path="device/generic/goldfish-opengl" name="lineageos_android_device_generic_goldfish-opengl" groups="lineage,pdk" remote="fde" />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp" />
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" />
@@ -367,7 +367,7 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" />
   <project path="external/scudo" name="platform/external/scudo" groups="pdk" remote="aosp" />
   <project path="external/seccomp-tests" name="platform/external/seccomp-tests" groups="pdk" remote="aosp" />
-  <project path="external/selinux" name="platform_external_selinux" groups="fde,pdk" remote="fde" />
+  <project path="external/selinux" name="platform_external_selinux" groups="pdk" remote="fde" revision="fde_w" />
   <project path="external/setupcompat" name="platform/external/setupcompat" groups="pdk" remote="aosp" />
   <project path="external/setupdesign" name="platform/external/setupdesign" groups="pdk" remote="aosp" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" remote="aosp" />
@@ -463,7 +463,7 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" remote="aosp" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="hardware/broadcom/libbt" name="lineageos_android_hardware_broadcom_libbt" groups="fde,lineage,pdk" revision="fde_w" remote="fde"/>
+  <project path="hardware/broadcom/libbt" name="lineageos_android_hardware_broadcom_libbt" groups="lineage,pdk" revision="fde_w" remote="fde"/>
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="aosp" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" remote="aosp" />
   <project path="hardware/google/av" name="platform/hardware/google/av" groups="pdk" remote="aosp" />
@@ -530,10 +530,10 @@
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" remote="aosp" />
   <project path="kernel/prebuilts/4.19/arm64" name="kernel/prebuilts/4.19/arm64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" remote="aosp" />
-  <project path="libcore" name="lineageos_android_libcore" groups="fde,pdk" remote="fde" />
+  <project path="libcore" name="lineageos_android_libcore" groups="pdk" remote="fde" revision="fde_w" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
   <project path="packages/apps/BasicSmsReceiver" name="LineageOS/android_packages_apps_BasicSmsReceiver" groups="lineage,pdk-cw-fs,pdk-fs" revision="24073c663e084f5a1c0ce2dc543af30d6643e9be" />
-  <project path="packages/apps/Bluetooth" name="lineageos_android_packages_apps_Bluetooth" groups="fde,lineage,pdk-cw-fs,pdk-fs" revision="fde_w" remote="fde" />
+  <project path="packages/apps/Bluetooth" name="lineageos_android_packages_apps_Bluetooth" groups="lineage,pdk-cw-fs,pdk-fs" revision="fde_w" remote="fde" />
   <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="lineage,pdk-fs" revision="ba73b97e236cb7bf15d91940b1639300298809e3" />
   <project path="packages/apps/Car/Calendar" name="platform/packages/apps/Car/Calendar" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/Cluster" name="platform/packages/apps/Car/Cluster" groups="pdk-fs" remote="aosp" />
@@ -570,7 +570,7 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/PermissionController" name="LineageOS/android_packages_apps_PackageInstaller" groups="lineage,pdk-cw-fs,pdk-fs" revision="7b39b5a29b1971725ba52d9395645d14b395f678" />
   <project path="packages/apps/PhoneCommon" name="LineageOS/android_packages_apps_PhoneCommon" groups="lineage,pdk-cw-fs,pdk-fs" revision="98f31e80373d32aa57ee0a88e76af06cc77efbd2" />
-  <project path="packages/apps/Provision" name="platform_packages_apps_provision" groups="fde,pdk-fs" remote="fde" />
+  <project path="packages/apps/Provision" name="platform_packages_apps_provision" groups="pdk-fs" remote="fde" revision="fde_w" />
   <project path="packages/apps/QuickAccessWallet" name="platform/packages/apps/QuickAccessWallet" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" groups="lineage,pdk-fs" revision="f31ce9a17f776e22f17e8cc7821eb5a1db6a3a7b" />
   <project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" remote="aosp" />
@@ -688,7 +688,7 @@
   <project path="prebuilts/vndk/v29" name="platform/prebuilts/vndk/v29" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/apex" name="platform/system/apex" groups="pdk" remote="aosp" />
-  <project path="system/bt" name="lineageos_android_system_bt" groups="fde,lineage,pdk" revision="fde_w" remote="fde"  />
+  <project path="system/bt" name="lineageos_android_system_bt" groups="lineage,pdk" revision="fde_w" remote="fde"  />
   <project path="system/bpf" name="platform_system_bpf" groups="fde,pdk" remote="fde" />
   <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" remote="aosp" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" remote="aosp" />
