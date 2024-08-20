@@ -472,7 +472,7 @@
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" remote="aosp" />
   <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="lineage,generic_fs,pixel" revision="1c03493096d43bc0c4cbbe18a3097e037129129c" />
   <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" remote="aosp" />
-  <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="lineage,pdk" revision="203e87a39c04f30bc1f09f6c2306b701d6b97fe0" />
+  <project path="hardware/interfaces" name="lineageos_android_hardware_interfaces" groups="fde,lineage,pdk" remote="fde"  />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" remote="aosp" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="LineageOS/android_hardware_knowles_athletico_sound_trigger_hal" groups="lineage,coral,generic_fs" revision="339f25dde12d5334a42c1b9739742219045d1043" />
   <project path="hardware/libhardware" name="lineageos_android_hardware_libhardware" groups="fde,pdk" remote="fde"  />
