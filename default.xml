@@ -52,7 +52,7 @@
   <project path="device/generic/car" name="device/generic/car" groups="pdk" remote="aosp" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" remote="aosp" />
   <project path="device/generic/goldfish" name="LineageOS/android_device_generic_goldfish" groups="lineage,pdk" revision="4394963c2eac6a8cd9716e815a63b33dceaba640" />
-  <project path="device/generic/goldfish-opengl" name="lineageos_android_device_generic_goldfish-opengl" groups="lineage,pdk" remote="fde" />
+  <project path="device/generic/goldfish-opengl" name="lineageos_android_device_generic_goldfish-opengl" groups="lineage,pdk" remote="fde" revision="fde_w"  />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp" />
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" />
@@ -472,7 +472,7 @@
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" remote="aosp" />
   <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="lineage,generic_fs,pixel" revision="1c03493096d43bc0c4cbbe18a3097e037129129c" />
   <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" remote="aosp" />
-  <project path="hardware/interfaces" name="lineageos_android_hardware_interfaces" groups="fde,lineage,pdk" remote="fde"  />
+  <project path="hardware/interfaces" name="lineageos_android_hardware_interfaces" groups="fde,lineage,pdk" remote="fde" revision="fde_w"  />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" remote="aosp" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="LineageOS/android_hardware_knowles_athletico_sound_trigger_hal" groups="lineage,coral,generic_fs" revision="339f25dde12d5334a42c1b9739742219045d1043" />
   <project path="hardware/libhardware" name="lineageos_android_hardware_libhardware" groups="fde,pdk" remote="fde"  />
