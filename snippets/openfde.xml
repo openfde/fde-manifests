@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/openfde/fde" name="device_openfde_fde" groups="fde,openfde" remote="openfde" />
+  <project path="external/alsa-lib" name="external_alsa-lib" groups="fde,openfde" remote="openfde" />
+  <project path="external/alsa-plugins" name="external_alsa-plugins" groups="fde,openfde" remote="openfde" />
+  <project path="external/libsndfile" name="external_libsndfile" groups="fde,openfde" remote="openfde" />
+  <project path="external/pulseaudio" name="external_pulseaudio" groups="fde,openfde" remote="openfde" />
+  <project path="external/mesa" name="external_mesa" groups="fde,openfde" remote="openfde" />
+  <project path="external/llvm-project" name="external_llvm-project" groups="fde,openfde" remote="openfde" />
+  <project path="hardware/openfde" name="hardware_openfde" groups="fde,openfde" remote="openfde" />
+  <project path="vendor/extra" name="vendor_extra" groups="fde,openfde" remote="openfde" />
+  <project path="packages/apps/FDECuratedApps" name="packages_apps_FDECuratedApps" groups="fde,openfde" remote="openfde" />
+  <project path="packages/apps/FDELinuxAppLauncher" name="packages_apps_FDELinuxAppLauncher" groups="fde,openfde" remote="openfde" />
+
+  
+</manifest>
+
