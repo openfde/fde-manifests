@@ -291,7 +291,7 @@
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp"  revision="d2b8f4ce121df59e4f5b8e9d0e1c11948be73bff" />
   <project path="external/libdav1d" name="platform/external/libdav1d" groups="pdk" remote="aosp"  revision="ff447a69a94e9c23998d59e951304384323cb19f" />
   <project path="external/libdivsufsort" name="platform/external/libdivsufsort" groups="pdk" remote="aosp"  revision="30b9430b2d8672faf9045aa522d63599a84e8e49" />
-  <project path="external/libdrm" name="external_libdrm" groups="pdk" remote="openfde"  />
+  <project path="external/libdrm" name="waydroid_android_external_libdrm" groups="pdk" remote="openfde"  />
   <project path="external/libepoxy" name="platform/external/libepoxy" groups="pdk" remote="aosp"  revision="61dc5df8983078d2df78b21a0587f7a9f38799dd" />
   <project path="external/libese" name="platform/external/libese" groups="pdk" remote="aosp"  revision="5923518e4f8281fe4eeb440b028fc3d72815bad0" />
   <project path="external/libevent" name="platform/external/libevent" groups="pdk" remote="aosp"  revision="5d9be44e07a59832270efccebfa957bbffe51b42" />
