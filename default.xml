@@ -167,7 +167,7 @@
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk"  revision="d37e9f0ddce5c220aed237c0d97d732c773861cc" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk" remote="aosp"  revision="06a9728c3609f856e87db38a6602196cec3ab727" />
   <project path="external/eigen" name="platform/external/eigen" groups="pdk" remote="aosp"  revision="c50defa76948378695d360cce711746624c8b943" />
-  <project path="external/elfutils" name="external_elfutils" groups="pdk" remote="openfde"  />
+  <project path="external/elfutils" name="android_external_elfutils" groups="pdk" remote="openfde"  />
   <project path="external/emma" name="platform/external/emma" groups="pdk" remote="aosp"  revision="6d7f987710eebdcc6b7b0180f50eb65086f06dd7" />
   <project path="external/erofs-utils" name="platform/external/erofs-utils" groups="pdk" remote="aosp"  revision="45ee690acb651d56e11f254a5632618ab2bc0692" />
   <project path="external/error_prone" name="platform/external/error_prone" groups="pdk" remote="aosp"  revision="45931abbc448bfa6efc826528f3eff5d092e32dd" />
