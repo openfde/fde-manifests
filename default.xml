@@ -348,7 +348,7 @@
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" remote="aosp"  revision="1ff9b784b0183a406020882ffe69ac4121fc40e7" />
   <project path="external/mime-support" name="platform/external/mime-support" groups="pdk" remote="aosp"  revision="2959cec403098292e35b4b7acb86b61d1af50620" />
   <project path="external/minigbm" name="platform/external/minigbm" groups="pdk" remote="aosp"  revision="5ab97c3f8412bd538d0f368c1868849003378cd4" />
-  <project path="external/minijail" name="external_minijail" groups="pdk" remote="openfde"  />
+  <project path="external/minijail" name="platform_external_minijail" groups="pdk" remote="openfde"  />
   <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk"  revision="05734d24dab15a7c4f07179cc29effeb7d4e8e2f" />
   <project path="external/mobile-data-download" name="platform/external/mobile-data-download" groups="pdk" remote="aosp"  revision="b37a6a5d2e6c2b220d8f73eb5fb6008949a6c012" />
   <project path="external/mobly-bundled-snippets" name="platform/external/mobly-bundled-snippets" groups="pdk" remote="aosp"  revision="fcc4c972c4e37092d80ffaeda2210198eb62959e" />
