@@ -63,7 +63,7 @@
   <project path="device/generic/car" name="device/generic/car" groups="pdk" remote="aosp"  revision="6cef92576833dfcb9ff130bb22de83e3bdbfe84b" />
   <project path="device/generic/common" name="LineageOS/android_device_generic_common" groups="pdk"  revision="987a6110ff8356a385e0393b6dc56fa48cd5ec15" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" remote="aosp"  revision="689f2e61d795ba3ce93eada665e9034f541db47d" />
-  <project path="device/generic/goldfish-opengl" name="device_generic_goldfish-opengl" groups="pdk" remote="aosp"  />
+  <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="pdk" remote="aosp"  />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp"  revision="3b24236047b36f026be87400f19dc98d99633580" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp"  revision="976cab503dd390085bffa7d6fe3c03827f691074" />
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp"  revision="6cc4f90392cb5c2f4589231124dbf8e111a6ac79" />
@@ -76,7 +76,7 @@
   <project path="device/google_car" name="device/google_car" groups="device,pdk" remote="aosp"  revision="92b6781fa6ce806d4d33c362a8d083fc67f7f3e7" />
   <project path="device/google/atv" name="LineageOS/android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk"  revision="754e5418af6b7df47df34681b3ec01c1d917de76" />
   <project path="device/google/contexthub" name="LineageOS/android_device_google_contexthub" groups="device,pdk"  revision="846d8316f3da79ce27dcdf92c98de50d9a900ec8" />
-  <project path="device/google/cuttlefish" name="device_google_cuttlefish" groups="device,pdk" remote="aosp" />
+  <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" remote="aosp" />
   <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" groups="device,pdk" clone-depth="1" remote="aosp"  revision="78870564f4537fe1aada6110854ce2237fc20cfd" />
   <project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="device,pdk" clone-depth="1" remote="aosp"  revision="aea3cd85d83d1d6d0b59c9cf0004e701ae7cdfef" />
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" remote="aosp"  revision="8aa3796da8e43c1f3b10b0e0bb6bf6a4aedd885f" />
