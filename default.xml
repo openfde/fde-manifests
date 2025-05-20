@@ -806,7 +806,7 @@
   <project path="external/sg3_utils" name="platform/external/sg3_utils" groups="pdk" remote="aosp"  revision="44704f698541f6367e81f991ef8bb54ccbf3fc18" />
   <project path="external/shaderc/spirv-headers" name="platform/external/shaderc/spirv-headers" groups="pdk" remote="aosp"  revision="7febe9feb40df796f100384b8ea729b9c0489522" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" remote="aosp"  revision="0316ec7373f5738d4a461291407635d5500cc414" />
-  <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="openfde" revision="master"  />
+  <project path="external/skia" name="lineageos_android_external_skia" groups="pdk,qcom_msm8x26" remote="openfde" revision="master"  />
   <project path="external/sl4a" name="platform/external/sl4a" groups="pdk" remote="aosp"  revision="ce036dc189d7455a0f09cd24991e69d020a3ac81" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk" remote="aosp"  revision="d0137a3495b4080aa9fa7ea5d00d4c0a9e81d79f" />
   <project path="external/snakeyaml" name="platform/external/snakeyaml" groups="pdk" remote="aosp"  revision="835062ed5ce551279286f9a6a8bec439f4837976" />
