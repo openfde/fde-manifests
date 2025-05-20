@@ -798,7 +798,7 @@
   <project path="external/scudo" name="platform/external/scudo" groups="pdk" remote="aosp"  revision="0d6ecd1f707ed1cb9c0210db2a5185e3c85fcf22" />
   <project path="external/sdv/vsomeip" name="platform/external/sdv/vsomeip" groups="pdk" remote="aosp"  revision="d8333fde128b58141d610bae787cea1c9bf370a9" />
   <project path="external/seccomp-tests" name="platform/external/seccomp-tests" groups="pdk" remote="aosp"  revision="512387a627f9285ad50c22d4c54410a321ce9c5b" />
-  <project path="external/selinux" name="external_selinux" groups="pdk" remote="openfde"  />
+  <project path="external/selinux" name="platform_external_selinux" groups="pdk" remote="openfde"  />
   <project path="external/setfilters" name="platform/external/setfilters" groups="pdk" remote="aosp"  revision="46d6e6b2607ff2403e935254203c8330b71001af" />
   <project path="external/setupcompat" name="LineageOS/android_external_setupcompat" groups="pdk,sysui-studio"  revision="f4d805793a0bfb820fed5f794c0cfe9ed2a48b1b" />
   <project path="external/setupdesign" name="platform/external/setupdesign" groups="pdk,sysui-studio" remote="aosp"  revision="383acb28c30502f6a3ee0d2908549c9f3e9cfd2c" />
@@ -855,7 +855,7 @@
   <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" groups="pdk" remote="aosp"  revision="e7dbbc7d8bc5871f29792d9cfa7b1818dbd157af" />
   <project path="external/walt" name="platform/external/walt" groups="pdk" remote="aosp"  revision="c52be930ee2e24887a53ab309ed5fc44d4a0d487" />
   <project path="external/wayland" name="platform/external/wayland" groups="pdk" remote="aosp"  revision="443fae79ac80d89257fd546d39d73daa5dfeee2f" />
-  <project path="external/wayland-protocols" name="external_wayland-protocols" groups="pdk" remote="openfde"  />
+  <project path="external/wayland-protocols" name="platform_external_wayland-protocols" groups="pdk" remote="openfde"  />
   <project path="external/webp" name="LineageOS/android_external_webp" groups="pdk,qcom_msm8x26"  revision="78ea6dfb2ded45ff23bd85bae8ab1f6ddb68b24b" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" remote="aosp"  revision="cd3d5a7606238e430a1989ab206576b766404c4a" />
   <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk"  revision="43981d45ca035decd00c9f0c2efd62786e5e0229" />
