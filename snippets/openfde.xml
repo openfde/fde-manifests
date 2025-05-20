@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/openfde/fde" name="device_openfde_fde" groups="fde,openfde" remote="openfde" />
+  <project path="device/openfde/fde" name="device_fde" groups="fde,openfde" remote="openfde" />
   <project path="external/alsa-lib" name="external_alsa-lib" groups="fde,openfde" remote="openfde" />
   <project path="external/alsa-plugins" name="external_alsa-plugins" groups="fde,openfde" remote="openfde" />
   <project path="external/libsndfile" name="external_libsndfile" groups="fde,openfde" remote="openfde" />
