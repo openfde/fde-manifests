@@ -872,8 +872,8 @@
   <project path="external/zstd" name="external_zstd" remote="openfde"  />
   <project path="external/zucchini" name="platform/external/zucchini" groups="pdk" remote="aosp"  revision="11a3a4cd409d6e0f4ccfcfb97cc962eeaeddde00" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp"  revision="513427e33d61bc67fc40bc261642ac0b2a686b45" />
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="openfde" />
-  <project path="frameworks/base" name="framework_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="openfde"  />
+  <project path="frameworks/av" name="lineageos_android_frameworks_av" groups="pdk" remote="openfde" />
+  <project path="frameworks/base" name="lineageos_android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="openfde"  />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp"  revision="2c3f4c361d131e500f6de3c417b819a05d13cf1f" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp"  revision="a40bbbff6e6e115620b12f620d3e9e9a0e7eb20e" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp"  revision="8e9a212552c9096cfeccaacd65dea1d1bca88107" />
@@ -888,7 +888,7 @@
   <project path="frameworks/libs/systemui" name="LineageOS/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio"  revision="d55bdacfa07fabb89c22d51b6a9d55105ed67d03" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" remote="aosp"  revision="0f9b7cb789e162cd21ffb71fcc52c96df947bf53" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp"  revision="b12a551e1378dcb5edef68133202415051bee2ff" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="openfde"  />
+  <project path="frameworks/native" name="lineageos_android_frameworks_native" groups="pdk" remote="openfde"  />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp"  revision="958affd2e0b70e659f5e5a32157e0ba3b7b558c1" />
   <project path="frameworks/opt/calendar" name="LineageOS/android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs"  revision="4427cc948f59be3d629113db0ba9b947a8637ad8" />
   <project path="frameworks/opt/car/services" name="platform/frameworks/opt/car/services" groups="pdk-cw-fs,pdk-fs" remote="aosp"  revision="755443e5eb4caf5234dfde043d530d4e6f0cc6ae" />
@@ -917,7 +917,7 @@
   <project path="hardware/google/camera" name="LineageOS/android_hardware_google_camera" groups="pdk"  revision="df3f282c37ccdeeabce5e4944084e7e16aa88d93" />
   <project path="hardware/google/easel" name="platform/hardware/google/easel" groups="pdk,easel" remote="aosp"  revision="6079cbb5196e1e026edc793e7e61240afb4c2bf3" />
   <project path="hardware/google/gchips" name="LineageOS/android_hardware_google_gchips" groups="pdk-lassen,pdk-gs-arm"  revision="730f7c77e7fdb66d47e73bf1c70935f56be87255" />
-  <project path="hardware/google/gfxstream" name="hardware_google_gfxstream" groups="pdk" remote="openfde" revision="master"  />
+  <project path="hardware/google/gfxstream" name="hardware/google/gfxstream" groups="pdk" remote="aosp"   />
   <project path="hardware/google/graphics/common" name="LineageOS/android_hardware_google_graphics_common" groups="pdk-lassen,pdk-gs-arm"  revision="a4c7d42feb38fb18553813d482ce36919da3c8a7" />
   <project path="hardware/google/graphics/gs101" name="platform/hardware/google/graphics/gs101" groups="pdk-lassen,pdk-gs-arm" remote="aosp"  revision="8d8f90a8d6fc6c77a1a18b5e780333d6fad3c73b" />
   <project path="hardware/google/graphics/gs201" name="platform/hardware/google/graphics/gs201" groups="cloudripper" remote="aosp"  revision="cea2c7b94bd554f586539534571b6f4263cba265" />
@@ -926,7 +926,7 @@
   <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel"  revision="ba5e7ac66d73c3ed62ff1d514a15168dc145b014" />
   <project path="hardware/google/pixel-sepolicy" name="LineageOS/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel"  revision="334ddc84cdb7b16cd14072082ba1e028efd6f666" />
   <project path="hardware/google/trusty" name="platform/hardware/google/trusty" groups="pdk" remote="aosp"  revision="4b2d77a525ce34a0ab4a81b1b2eb24cc237dbbe6" />
-  <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk,sysui-studio" remote="openfde" />
+  <project path="hardware/interfaces" name="lineageos_android_hardware_interfaces" groups="pdk,sysui-studio" remote="openfde" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" remote="aosp"  revision="02424279a734a0cb64681cf11d5208a917662433" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral,generic_fs" remote="aosp"  revision="22e1e4a11c3d5dc3d25747054065e03e680c62d6" />
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk"  revision="b923f817e9a095748f7ee86600586c9ff1c56c01" />
@@ -1025,7 +1025,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="aosp"  revision="ac293f1fa79b3a02cb78a1dd7eaf9942374603d1" />
   <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs"  revision="39e4c8b273461bbb2044e88fe5bc84ead01d932d" />
   <project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" groups="pdk-fs"  revision="ba631cd9a1d5ef7067d8eac05b67247caeeaf4a7" />
-  <project path="packages/apps/DocumentsUI" name="packages_apps_documentsui" groups="pdk-cw-fs,pdk-fs" remote="openfde"  />
+  <project path="packages/apps/DocumentsUI" name="lineageos_android_packages_apps_documentsui" groups="pdk-cw-fs,pdk-fs" remote="openfde"  />
   <project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" groups="pdk-fs"  revision="c3f0da3e1b055755647c7728b30e723f4fd0fa41" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" remote="aosp"  revision="31b1011ea5403d3b29e622dbd0f77fc607ed6b06" />
   <project path="packages/apps/ImsServiceEntitlement" name="platform/packages/apps/ImsServiceEntitlement" groups="pdk-fs" remote="aosp"  revision="2d70ed5966ed71e1d51d6df4fbe6f51647990c36" />
@@ -1043,7 +1043,7 @@
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" remote="aosp"  revision="b1b0deb1c285c9d72b4d7ce85db9b36eb1aa0586" />
   <project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" remote="aosp"  revision="0fd20325c8c02610a0bf2021a0d178ac3105a277" />
   <project path="packages/apps/SecureElement" name="platform/packages/apps/SecureElement" groups="apps_se,pdk-fs" remote="aosp"  revision="7fea68a2a8bf25fb3bc4a121a5abe986a8a98cd0" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="openfde"  />
+  <project path="packages/apps/Settings" name="lineageos_android_packages_apps_Settings" groups="pdk-fs" remote="openfde"  />
   <project path="packages/apps/SettingsIntelligence" name="LineageOS/android_packages_apps_SettingsIntelligence" groups="pdk-fs"  revision="2f2caa0a6524248bfefb63167c4bfcec9c83630b" />
   <project path="packages/apps/Stk" name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs"  revision="12c0bb30b9b54820792f6245e048de42bdf4fc45" />
   <project path="packages/apps/StorageManager" name="platform/packages/apps/StorageManager" groups="pdk-fs" remote="aosp"  revision="0bd95ad34c41fbb9cdd851ff5325fe1bed73b6c1" />
@@ -1052,7 +1052,7 @@
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" groups="pdk" remote="aosp"  revision="fe8d01bb832962ecda95df428cf3271c2f5edd60" />
   <project path="packages/apps/ThemePicker" name="LineageOS/android_packages_apps_ThemePicker" groups="pdk-fs"  revision="15eb3764828a19a701d58104a4c4158986d4f885" />
   <project path="packages/apps/Traceur" name="platform/packages/apps/Traceur" groups="pdk-fs" remote="aosp"  revision="502271cf2636652907facf05d1fe00e2c5f83fcb" />
-  <project path="packages/apps/Trebuchet" name="packages_apps_trebuchet" groups="pdk-fs,sysui-studio" remote="openfde"  />
+  <project path="packages/apps/Trebuchet" name="lineageos_android_packages_apps_trebuchet" groups="pdk-fs,sysui-studio" remote="openfde"  />
   <project path="packages/apps/TvFeedbackConsent" name="platform/packages/apps/TvFeedbackConsent" groups="pdk-fs" remote="aosp"  revision="784429c3efe3567f37e79ba195d557c21e8a4e56" />
   <project path="packages/apps/TvSettings" name="LineageOS/android_packages_apps_TvSettings" groups="pdk-fs"  revision="071642fbdf7afe7d717b506b065ac2676f563a39" />
   <project path="packages/apps/TvSystemUI" name="LineageOS/android_packages_apps_TvSystemUI" groups="pdk-fs"  revision="adddf3323e91d794360bcdb8b5c8bc15bfe7c042" />
@@ -1065,12 +1065,12 @@
   <project path="packages/modules/AdServices" name="platform/packages/modules/AdServices" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="aosp"  revision="50c6b795de14812a67eca6a83cb50ac7e74a0a2e" />
   <project path="packages/modules/AppSearch" name="platform/packages/modules/AppSearch" groups="pdk" remote="aosp"  revision="ceb280f1b40b917fc907d8eacfc84e27e497b8c4" />
   <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" groups="pdk" clone-depth="1" remote="aosp"  revision="bee62eeff9f366e5887a439b71f17a43d678be81" />
-  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk"  remote="openfde" />
+  <project path="packages/modules/Bluetooth" name="lineageos_packages_modules_Bluetooth" groups="pdk"  remote="openfde" />
   <project path="packages/modules/CaptivePortalLogin" name="platform/packages/modules/CaptivePortalLogin" groups="pdk-cw-fs,pdk-fs" remote="aosp"  revision="db4ac5ad7d3caa76879de01630fd9f0c74a5b574" />
   <project path="packages/modules/CellBroadcastService" name="platform/packages/modules/CellBroadcastService" groups="pdk" remote="aosp"  revision="6a2dd19af8c82b73debe2d1a4dbd1a3b232c5ba7" />
   <project path="packages/modules/common" name="LineageOS/android_packages_modules_common" groups="pdk-cw-fs,pdk-fs"  revision="722642177b706716fa79a26938d363d438f2c90a" />
   <project path="packages/modules/ConfigInfrastructure" name="platform/packages/modules/ConfigInfrastructure" groups="pdk-cw-fs,pdk-fs" remote="aosp"  revision="7671cc7268a9b074813e190884a17d3084d876c3" />
-  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="openfde"  />
+  <project path="packages/modules/Connectivity" name="lineageos_android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="openfde"  />
   <project path="packages/modules/CrashRecovery" name="platform/packages/modules/CrashRecovery" groups="pdk-cw-fs,pdk-fs" remote="aosp"  revision="fdeeab4c41dad3a5dc33acff30aa27b28cc807f2" />
   <project path="packages/modules/Cronet" name="platform/packages/modules/Cronet" groups="pdk-cw-fs,pdk-fs" remote="aosp"  revision="8879b0aac132668135c6a9869f9388140e8a29b1" />
   <project path="packages/modules/DeviceLock" name="platform/packages/modules/DeviceLock" groups="pdk-cw-fs,pdk-fs" remote="aosp"  revision="8fbc0790d40bcd884e9f3eb62db3942bf3b18c6f" />

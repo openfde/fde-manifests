@@ -10,7 +10,7 @@
   <project path="hardware/openfde" name="hardware_openfde" groups="fde,openfde" remote="openfde" />
   <project path="vendor/extra" name="vendor_extra" groups="fde,openfde" remote="openfde" />
   <project path="packages/apps/FDECuratedApps" name="packages_apps_FDECuratedApps" groups="fde,openfde" remote="openfde" />
-  <project path="packages/apps/FDELinuxAppLauncher" name="packages_apps_FDELinuxAppLauncher" groups="fde,openfde" remote="openfde" />
+  <project path="packages/apps/FDELinuxAppLauncher" name="android_packages_apps_FDELinuxAppLauncher" groups="fde,openfde" remote="openfde" />
 
   
 </manifest>
