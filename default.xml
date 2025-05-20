@@ -27,7 +27,7 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build/make" name="build_make" groups="pdk,sysui-studio" remote="openfde" >
+  <project path="build/make" name="lineageos_android_build_make" groups="pdk,sysui-studio" remote="openfde" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -43,8 +43,8 @@
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="pdk" remote="aosp"  revision="0d4e7791240a1b6353f98076c84288f91beca315" />
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp"  revision="cf7fdff39eeae23d21e41fcdeecbad5eecbee3c8" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" remote="aosp"  revision="d554620e6f7ad178b71ebb8c4269830cbd24ad8c" />
-  <project path="build/release" name="build_release" groups="pdk,tradefed" remote="openfde"  />
-  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="openfde" >
+  <project path="build/release" name="lineageos_android_build_release" groups="pdk,tradefed" remote="openfde"  />
+  <project path="build/soong" name="lineageos_android_build_soong" groups="pdk,tradefed" remote="openfde" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
