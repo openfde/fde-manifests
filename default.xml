@@ -1206,7 +1206,7 @@
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" remote="aosp"  revision="9f7645c732dcb980036ab9633c9c4cd7a8a04cad" />
   <project path="system/chre" name="platform/system/chre" groups="pdk" remote="aosp"  revision="187e2d6f72e9ff1ac49b83326415a3de6b28f78d" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" remote="aosp"  revision="7c43e2c85e35fa4dfadbb8557fe275ae7c3ca085" />
-  <project path="system/core" name="system_core" groups="pdk" remote="openfde" />
+  <project path="system/core" name="lineageos_android_system_core" groups="pdk" remote="openfde" />
   <project path="system/dmesgd" name="platform/system/dmesgd" groups="pdk" remote="aosp"  revision="71bd08cc6680df301723d4bd4624caadde3d2f8f" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk"  revision="994315964c73b871ae882fcbc3f1d0ae57084647" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp"  revision="5d209d767693d63158a0efe78371489353020bf5" />
@@ -1222,7 +1222,7 @@
   <project path="system/libcppbor" name="platform/system/libcppbor" groups="pdk" remote="aosp"  revision="789e26c64b658310ef56c76f5803fa54658c3527" />
   <project path="system/libfmq" name="platform/system/libfmq" groups="pdk" remote="aosp"  revision="b14678b4bba361c53311ba50014efa9efa860422" />
   <project path="system/libhidl" name="LineageOS/android_system_libhidl" groups="pdk,sysui-studio"  revision="0ca22f22769ecc8ddf4ef34d8e0b5fff3d0429e5" />
-  <project path="system/libhwbinder" name="system_libhwbinder" groups="pdk" remote="openfde" />
+  <project path="system/libhwbinder" name="platform_system_libhwbinder" groups="pdk" remote="openfde" />
   <project path="system/libprocinfo" name="platform/system/libprocinfo" groups="pdk" remote="aosp"  revision="3f87a51101303eb4adc2ea2af68a75d78e4f1a79" />
   <project path="system/librustutils" name="platform/system/librustutils" groups="pdk" remote="aosp"  revision="5ad8057f9539698230fd890c2c459edc62479b94" />
   <project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk" remote="aosp"  revision="d1397c1730a54ab866cbcf6bbec5b54867b6f407" />
