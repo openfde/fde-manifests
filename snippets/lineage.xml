@@ -28,7 +28,7 @@
   <project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat"  revision="ebbf14dbeb2a68b3be424e4877be369f9c05f41b" />
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces"  revision="239c3734f1842d0876217449323bebab74e2e515" />
   <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay"  revision="05bbbfd180bf8c02b6fb81a7e4b8057868f6e4ba" />
-  <project path="lineage-sdk" name="lineageos_android_lineage-sdk" remote="openfde" />
+  <project path="lineage-sdk" name="lineageos_android_lineage-sdk" groups="fde" remote="openfde" />
   <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture"  revision="5a02a949c35d13afdc538655aef74a6a379a9185" />
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX"  revision="a635f1794e345ecddb8992718f16fbe29e46bdb5" />
   <project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds"  revision="c211db00749b1f81d489c632c5019b2cabba2f6a" />
@@ -46,7 +46,7 @@
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles"  revision="74780d633bd2a02f4ddd3d62e937773b130aaa28" />
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder"  revision="ebc2394d1c62ded6ed73a8050fafeed1b5006616" />
   <project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault"  revision="c906fd7834ed027fbc6c4dacea1b15525a882013" />
-  <project path="packages/apps/SetupWizard" name="lineageos_packages_apps_SetupWizard" remote="openfde" />
+  <project path="packages/apps/SetupWizard" name="lineageos_packages_apps_SetupWizard" groups="fde"  remote="openfde" />
   <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig"  revision="82d31b18dd2550e05f89248f128cb571eecc863a" />
   <project path="packages/apps/SimpleSettingsConfig" name="LineageOS/android_packages_apps_SimpleSettingsConfig"  revision="f5620aa22a44ac3a9794d0fda5c146efd7e0a11e" />
   <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater"  revision="d0f28cbaa9f8f69fcc0990dfa8210e5c3c5706ab" />
@@ -55,7 +55,7 @@
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1"  revision="b126753e80fcb5d886a0b4fe91dedb8593176de3" />
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils"  revision="5caad68158c2277677560dae0b304c7a70ddfb4d" />
   <project path="vendor/crowdin" name="LineageOS/android_vendor_crowdin"  revision="674c9680d5d513932720eae066cd345a3f7d16b5" />
-  <project path="vendor/lineage" name="lineageos_android_vendor_lineage" remote="openfde" />
+  <project path="vendor/lineage" name="lineageos_android_vendor_lineage" groups="fde" remote="openfde" />
 
   <!-- Legacy AOSP additions -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="30b01f5b6ece6c5204d46f6b2ea90745dbc69826" />
