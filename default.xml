@@ -1227,7 +1227,7 @@
   <project path="system/librustutils" name="platform/system/librustutils" groups="pdk" remote="aosp"  revision="5ad8057f9539698230fd890c2c459edc62479b94" />
   <project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk" remote="aosp"  revision="d1397c1730a54ab866cbcf6bbec5b54867b6f407" />
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" remote="aosp"  revision="00ee4cc4f5b4c32ea11b0e301c9a96d2967e51d1" />
-  <project path="system/libvintf" name="system_libvintf" groups="pdk" remote="openfde" />
+  <project path="system/libvintf" name="platform_system_libvintf" groups="pdk" remote="openfde" />
   <project path="system/libziparchive" name="LineageOS/android_system_libziparchive" groups="pdk"  revision="b4252b3cbb4d06a84dc2acb4032aef73d369869e" />
   <project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk" remote="aosp"  revision="4d7afd61b0361e6eb4c8b3973ace09e7825e8a09" />
   <project path="system/logging" name="LineageOS/android_system_logging" groups="pdk"  revision="6ee74f7fc9b399fae4acf0dd394a7cfed2811a5d" />
@@ -1238,7 +1238,7 @@
   <project path="system/memory/libmemtrack" name="platform/system/memory/libmemtrack" groups="pdk" remote="aosp"  revision="8c26af722f219bd167b84b3ff37944c47136e70f" />
   <project path="system/memory/libmemunreachable" name="platform/system/memory/libmemunreachable" groups="pdk" remote="aosp"  revision="e2ada4f7e54d357a339bae325aa4ebed92d1fdb2" />
   <project path="system/memory/lmkd" name="platform/system/memory/lmkd" groups="pdk" remote="aosp"  revision="d6f77a700ec468e1d75bad55272ca95e4bf0998e" />
-  <project path="system/netd" name="system_netd" groups="pdk" remote="openfde" />
+  <project path="system/netd" name="lineageos_android_system_netd" groups="pdk" remote="openfde" />
   <project path="system/nfc" name="platform/system/nfc" groups="pdk" remote="aosp"  revision="4400ddbb98c908ae2de7c4382ba15f5b833d435b" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" remote="aosp"  revision="d6b8fd3ead1ab5dac63bdc5ce34b5a0161c1aea5" />
   <project path="system/secretkeeper" name="platform/system/secretkeeper" groups="pdk" remote="aosp"  revision="7ba624224f0dc7ccdeced05c0d53988b722a6a34" />

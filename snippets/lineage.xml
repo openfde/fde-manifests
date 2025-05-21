@@ -55,7 +55,7 @@
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1"  revision="b126753e80fcb5d886a0b4fe91dedb8593176de3" />
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils"  revision="5caad68158c2277677560dae0b304c7a70ddfb4d" />
   <project path="vendor/crowdin" name="LineageOS/android_vendor_crowdin"  revision="674c9680d5d513932720eae066cd345a3f7d16b5" />
-  <project path="vendor/lineage" name="vendor_lineage" remote="openfde" />
+  <project path="vendor/lineage" name="lineageos_android_vendor_lineage" remote="openfde" />
 
   <!-- Legacy AOSP additions -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="30b01f5b6ece6c5204d46f6b2ea90745dbc69826" />
