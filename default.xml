@@ -917,7 +917,7 @@
   <project path="hardware/google/camera" name="LineageOS/android_hardware_google_camera" groups="pdk"  revision="df3f282c37ccdeeabce5e4944084e7e16aa88d93" />
   <project path="hardware/google/easel" name="platform/hardware/google/easel" groups="pdk,easel" remote="aosp"  revision="6079cbb5196e1e026edc793e7e61240afb4c2bf3" />
   <project path="hardware/google/gchips" name="LineageOS/android_hardware_google_gchips" groups="pdk-lassen,pdk-gs-arm"  revision="730f7c77e7fdb66d47e73bf1c70935f56be87255" />
-  <project path="hardware/google/gfxstream" name="hardware/google/gfxstream" groups="pdk" remote="aosp"   />
+  <project path="hardware/google/gfxstream" name="platform/hardware/google/gfxstream" groups="pdk" remote="aosp"   />
   <project path="hardware/google/graphics/common" name="LineageOS/android_hardware_google_graphics_common" groups="pdk-lassen,pdk-gs-arm"  revision="a4c7d42feb38fb18553813d482ce36919da3c8a7" />
   <project path="hardware/google/graphics/gs101" name="platform/hardware/google/graphics/gs101" groups="pdk-lassen,pdk-gs-arm" remote="aosp"  revision="8d8f90a8d6fc6c77a1a18b5e780333d6fad3c73b" />
   <project path="hardware/google/graphics/gs201" name="platform/hardware/google/graphics/gs201" groups="cloudripper" remote="aosp"  revision="cea2c7b94bd554f586539534571b6f4263cba265" />
