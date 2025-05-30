@@ -42,7 +42,7 @@
   <project path="packages/apps/Glimpse" name="LineageOS/android_packages_apps_Glimpse"  revision="c69b689d33ce1a9d94ca6535ffc87da63840ea32" />
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly"  revision="20be7149311275a0eeb5555f7e6b89876063e27f" />
   <project path="packages/apps/LineageCustomizer" name="LineageOS/android_packages_apps_LineageCustomizer"  revision="6d78f750ddfe8b7b5821a9ce83860755491b8bd8" />
-  <project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts"  revision="e532a1aabfa58573d1d4b11f23874228cde2dda7" />
+  <project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts"  groups="fde"  remote="openfde" />
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles"  revision="74780d633bd2a02f4ddd3d62e937773b130aaa28" />
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder"  revision="ebc2394d1c62ded6ed73a8050fafeed1b5006616" />
   <project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault"  revision="c906fd7834ed027fbc6c4dacea1b15525a882013" />
