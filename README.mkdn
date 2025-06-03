@@ -14,7 +14,7 @@ source build/envsetup.sh
 ```
 syncFdeApk 
 ```
- # download the latest boringdroidSystemUI apk from web
+ download the latest boringdroidSystemUI apk from web by run command syncFdeApk
 
 ```
 breakfast fde_x100_arm64 user
