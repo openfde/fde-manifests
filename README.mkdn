@@ -7,3 +7,8 @@ Then to sync up:
 ```
 repo sync
 ```
+compile 
+source build/envsetup.sh 
+syncFdeApk  # download the latest boringdroidSystemUI apk from web
+breakfast fde_x100_arm64 user
+make -j4
