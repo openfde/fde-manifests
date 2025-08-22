@@ -1001,7 +1001,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp"  revision="bd5a40c2b66bfe47123a22f35496ffe890be31ff" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="aosp"  revision="ea13485e203eaed509230326e974605212ca9b24" />
   <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" remote="aosp"  revision="86b1768168c91239ef11b922794fee20192cf9d9" />
-  <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs"  revision="d8b5759d205400bb2d4e36c05482ceae0afbc033" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="fde" remote="openfde" />
   <project path="packages/apps/Car/Cluster" name="platform/packages/apps/Car/Cluster" groups="pdk-fs" remote="aosp"  revision="3e0909cf4dd7177239488c89422834af0fff61b8" />
   <project path="packages/apps/Car/DebuggingRestrictionController" name="platform/packages/apps/Car/DebuggingRestrictionController" groups="pdk-fs" remote="aosp"  revision="9b430939c67ceb3e3d212fff8f1fb409e849b2b9" />
   <project path="packages/apps/Car/DialerPrebuilt" name="platform/packages/apps/Car/DialerPrebuilt" groups="pdk-fs" clone-depth="1" remote="aosp"  revision="b7144b1ff6a7e22bd674b748a688bdd2adbc9d85" />
