@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+	<!--
   <remote  name="lineageos"
 	  fetch="https://mirrors.tuna.tsinghua.edu.cn/git/lineageOS/"
            review="review.lineageos.org" />
@@ -8,8 +9,11 @@
 	  fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP"
            review="android-review.googlesource.com"
            revision="refs/tags/android-11.0.0_r46" />
+  <remote  name="fde"
+	  fetch="https://gitee.com/openfde/"
+	  revision="refs/heads/fde_w" />
+	-->
 
-<!--
   <remote  name="lineageos"
 	  fetch="https://github.com/"
            review="review.lineageos.org" />
@@ -19,7 +23,6 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-11.0.0_r46" />
 
-  -->
   <remote  name="fde"
 	  fetch="https://github.com/openfde/"
 	  revision="refs/heads/fde_w" />
