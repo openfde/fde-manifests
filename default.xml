@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<!--
+<!-- uncomment the mirrors repos and comment the main repos to switch  -->
+
+
+  <!-- the mirrors repos start -->
+<!-- 
   <remote  name="lineageos"
 	  fetch="https://mirrors.tuna.tsinghua.edu.cn/git/lineageOS/"
            review="review.lineageos.org" />
@@ -9,11 +13,14 @@
 	  fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP"
            review="android-review.googlesource.com"
            revision="refs/tags/android-11.0.0_r46" />
-  <remote  name="fde"
+  <remote name="fde"
 	  fetch="https://gitee.com/openfde/"
 	  revision="refs/heads/fde_w" />
 	-->
+  <!-- the mirrors repos end -->
 
+
+  <!-- the main repos start -->
   <remote  name="lineageos"
 	  fetch="https://github.com/"
            review="review.lineageos.org" />
@@ -24,6 +31,13 @@
            revision="refs/tags/android-11.0.0_r46" />
 
   <remote  name="fde"
+	  fetch="https://github.com/openfde/"
+	  revision="refs/heads/fde_w" />
+  <!-- the main repos end -->
+
+
+  <!-- The 'fde-main' remote is used for the huge repositories that cannot be mirrored on Gitee due to their size/capacity limits.-->
+  <remote name="fde-main"
 	  fetch="https://github.com/openfde/"
 	  revision="refs/heads/fde_w" />
 
@@ -444,7 +458,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
   <project path="frameworks/av" name="lineageos_android_frameworks_av" groups="fde,pdk" remote="fde"  />
-  <project path="frameworks/base" name="lineageos_android_frameworks_base" groups="fde,pdk-cw-fs,pdk-fs,sync" remote="fde"  />
+  <project path="frameworks/base" name="lineageos_android_frameworks_base" groups="fde,pdk-cw-fs,pdk-fs,sync" remote="fde-main"  />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
@@ -458,7 +472,7 @@
   <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="lineage,pdk-cw-fs,pdk-fs" revision="107a01a1a80cb2ccf2455d90e4976eeaea398bc9" />
   <project path="frameworks/ml" name="LineageOS/android_frameworks_ml" groups="lineage,pdk" revision="c27e8e1aaa438edabf5f42734d4434528538cb00" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/native" name="lineageos_android_frameworks_native" groups="fde,pdk" remote="fde"  />
+  <project path="frameworks/native" name="lineageos_android_frameworks_native" groups="fde,pdk" remote="fde-main"  />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/car/services" name="platform/frameworks/opt/car/services" groups="pdk-fs" remote="aosp" />
