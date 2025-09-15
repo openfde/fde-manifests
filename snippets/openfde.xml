@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="device/openfde/fde" name="device_fde" groups="fde" remote="openfde" />
+  <project path="device/openfde/ftg340" name="device_openfde_prebuilt_ftg340" groups="fde,openfde" remote="fde"  revision="fde_w" />
   <project path="external/alsa-lib" name="waydroid_android_external_alsa-lib" groups="fde" remote="openfde" />
   <project path="external/alsa-plugins" name="waydroid_android_external_alsa-plugins" groups="fde" remote="openfde" />
   <project path="external/libsndfile" name="waydroid_android_external_libsndfile" groups="fde" remote="openfde" />
