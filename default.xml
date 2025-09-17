@@ -63,7 +63,7 @@
   <project path="device/generic/car" name="device/generic/car" groups="pdk" remote="aosp"  revision="6cef92576833dfcb9ff130bb22de83e3bdbfe84b" />
   <project path="device/generic/common" name="LineageOS/android_device_generic_common" groups="pdk"  revision="987a6110ff8356a385e0393b6dc56fa48cd5ec15" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" remote="aosp"  revision="689f2e61d795ba3ce93eada665e9034f541db47d" />
-  <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="pdk" remote="aosp"  />
+  <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="pdk" remote="openfde"  />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp"  revision="3b24236047b36f026be87400f19dc98d99633580" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp"  revision="976cab503dd390085bffa7d6fe3c03827f691074" />
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp"  revision="6cc4f90392cb5c2f4589231124dbf8e111a6ac79" />
