@@ -1256,7 +1256,7 @@
   <project path="system/tools/xsdc" name="platform/system/tools/xsdc" groups="pdk" remote="aosp"  revision="55f0cfaba235c840724ad224a70783e67c51dfa9" />
   <project path="system/unwinding" name="platform/system/unwinding" groups="pdk" remote="aosp"  revision="8e95104a4f5a56a023b460dc90cc702251bfa1f0" />
   <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk"  revision="e2094a19397a14d378c0404e72dad74d98a45632" />
-  <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk"  revision="f81d91f911a2833251026bb9943c422dea190bd7" />
+  <project path="system/vold" name="LineageOS_android_system_vold" groups="pdk"  remote="openfde" />
   <project path="test/app_compat/csuite" name="platform/test/app_compat/csuite" groups="pdk" remote="aosp"  revision="fb062e49ef74e4d1110d52ccfcf431140ca4e258" />
   <project path="test/cts-root" name="platform/test/cts-root" remote="aosp"  revision="71c7745f1de0b283f8c90ff3acbc19355c2d3374" />
   <project path="test/dittosuite" name="platform/test/dittosuite" groups="pdk" remote="aosp"  revision="d0291d5f0fce4336be83b5b36a50b63aea5a5854" />
