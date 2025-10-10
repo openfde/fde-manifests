@@ -76,7 +76,7 @@
   <project path="device/google_car" name="device/google_car" groups="device,pdk" remote="aosp"  revision="92b6781fa6ce806d4d33c362a8d083fc67f7f3e7" />
   <project path="device/google/atv" name="LineageOS/android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk"  revision="754e5418af6b7df47df34681b3ec01c1d917de76" />
   <project path="device/google/contexthub" name="LineageOS/android_device_google_contexthub" groups="device,pdk"  revision="846d8316f3da79ce27dcdf92c98de50d9a900ec8" />
-  <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" remote="aosp" />
+  <project path="device/google/cuttlefish" name="device_google_cuttlefish" groups="device,pdk" remote="openfde" />
   <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" groups="device,pdk" clone-depth="1" remote="aosp"  revision="78870564f4537fe1aada6110854ce2237fc20cfd" />
   <project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="device,pdk" clone-depth="1" remote="aosp"  revision="aea3cd85d83d1d6d0b59c9cf0004e701ae7cdfef" />
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" remote="aosp"  revision="8aa3796da8e43c1f3b10b0e0bb6bf6a4aedd885f" />
@@ -806,7 +806,7 @@
   <project path="external/sg3_utils" name="platform/external/sg3_utils" groups="pdk" remote="aosp"  revision="44704f698541f6367e81f991ef8bb54ccbf3fc18" />
   <project path="external/shaderc/spirv-headers" name="platform/external/shaderc/spirv-headers" groups="pdk" remote="aosp"  revision="7febe9feb40df796f100384b8ea729b9c0489522" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" remote="aosp"  revision="0316ec7373f5738d4a461291407635d5500cc414" />
-  <project path="external/skia" name="lineageos_android_external_skia" groups="fde,pdk,qcom_msm8x26" remote="openfde" revision="master"  />
+  <project path="external/skia" name="lineageos_android_external_skia" groups="fde,pdk,qcom_msm8x26" remote="openfde"  />
   <project path="external/sl4a" name="platform/external/sl4a" groups="pdk" remote="aosp"  revision="ce036dc189d7455a0f09cd24991e69d020a3ac81" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk" remote="aosp"  revision="d0137a3495b4080aa9fa7ea5d00d4c0a9e81d79f" />
   <project path="external/snakeyaml" name="platform/external/snakeyaml" groups="pdk" remote="aosp"  revision="835062ed5ce551279286f9a6a8bec439f4837976" />
@@ -917,7 +917,7 @@
   <project path="hardware/google/camera" name="LineageOS/android_hardware_google_camera" groups="pdk"  revision="df3f282c37ccdeeabce5e4944084e7e16aa88d93" />
   <project path="hardware/google/easel" name="platform/hardware/google/easel" groups="pdk,easel" remote="aosp"  revision="6079cbb5196e1e026edc793e7e61240afb4c2bf3" />
   <project path="hardware/google/gchips" name="LineageOS/android_hardware_google_gchips" groups="pdk-lassen,pdk-gs-arm"  revision="730f7c77e7fdb66d47e73bf1c70935f56be87255" />
-  <project path="hardware/google/gfxstream" name="platform/hardware/google/gfxstream" groups="pdk" remote="aosp"   />
+  <project path="hardware/google/gfxstream" name="hardware_google_gfxstream" groups="pdk" remote="openfde"  />
   <project path="hardware/google/graphics/common" name="LineageOS/android_hardware_google_graphics_common" groups="pdk-lassen,pdk-gs-arm"  revision="a4c7d42feb38fb18553813d482ce36919da3c8a7" />
   <project path="hardware/google/graphics/gs101" name="platform/hardware/google/graphics/gs101" groups="pdk-lassen,pdk-gs-arm" remote="aosp"  revision="8d8f90a8d6fc6c77a1a18b5e780333d6fad3c73b" />
   <project path="hardware/google/graphics/gs201" name="platform/hardware/google/graphics/gs201" groups="cloudripper" remote="aosp"  revision="cea2c7b94bd554f586539534571b6f4263cba265" />
