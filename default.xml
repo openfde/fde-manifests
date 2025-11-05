@@ -15,7 +15,7 @@
            revision="refs/tags/android-14.0.0_r67" />
   <remote name="openfde"
 	  fetch="https://gitee.com/openfde/"
-	  revision="refs/heads/fde_14" />
+	  revision="refs/tags/2.0.3" />>
 	-->
 	
 <!-- the mirrors repos end -->
@@ -31,7 +31,7 @@
            revision="refs/tags/android-14.0.0_r67" />
   <remote  name="openfde"
 	  fetch="https://github.com/openfde/"
-           revision="refs/heads/fde_14" />
+           revision="refs/tags/2.0.3" />
  <!-- the main repos end -->
 
  <remote  name="private"
