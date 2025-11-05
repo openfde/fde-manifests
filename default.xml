@@ -63,7 +63,7 @@
   <project path="device/generic/car" name="device/generic/car" groups="pdk" remote="aosp"  revision="6cef92576833dfcb9ff130bb22de83e3bdbfe84b" />
   <project path="device/generic/common" name="LineageOS/android_device_generic_common" groups="pdk"  revision="987a6110ff8356a385e0393b6dc56fa48cd5ec15" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" remote="aosp"  revision="689f2e61d795ba3ce93eada665e9034f541db47d" />
-  <project path="device/generic/goldfish-opengl" name="lineageos_android_device_generic_goldfish-opengl" groups="pdk" remote="openfde"  />
+  <project path="device/generic/goldfish-opengl" name="lineageos_android_device_generic_goldfish-opengl" groups="fde,pdk" remote="openfde"  />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp"  revision="3b24236047b36f026be87400f19dc98d99633580" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp"  revision="976cab503dd390085bffa7d6fe3c03827f691074" />
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp"  revision="6cc4f90392cb5c2f4589231124dbf8e111a6ac79" />
@@ -76,7 +76,7 @@
   <project path="device/google_car" name="device/google_car" groups="device,pdk" remote="aosp"  revision="92b6781fa6ce806d4d33c362a8d083fc67f7f3e7" />
   <project path="device/google/atv" name="LineageOS/android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk"  revision="754e5418af6b7df47df34681b3ec01c1d917de76" />
   <project path="device/google/contexthub" name="LineageOS/android_device_google_contexthub" groups="device,pdk"  revision="846d8316f3da79ce27dcdf92c98de50d9a900ec8" />
-  <project path="device/google/cuttlefish" name="device_google_cuttlefish" groups="device,pdk" remote="openfde" />
+  <project path="device/google/cuttlefish" name="device_google_cuttlefish" groups="fde,device,pdk" remote="openfde" />
   <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" groups="device,pdk" clone-depth="1" remote="aosp"  revision="78870564f4537fe1aada6110854ce2237fc20cfd" />
   <project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="device,pdk" clone-depth="1" remote="aosp"  revision="aea3cd85d83d1d6d0b59c9cf0004e701ae7cdfef" />
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" remote="aosp"  revision="8aa3796da8e43c1f3b10b0e0bb6bf6a4aedd885f" />
@@ -917,7 +917,7 @@
   <project path="hardware/google/camera" name="LineageOS/android_hardware_google_camera" groups="pdk"  revision="df3f282c37ccdeeabce5e4944084e7e16aa88d93" />
   <project path="hardware/google/easel" name="platform/hardware/google/easel" groups="pdk,easel" remote="aosp"  revision="6079cbb5196e1e026edc793e7e61240afb4c2bf3" />
   <project path="hardware/google/gchips" name="LineageOS/android_hardware_google_gchips" groups="pdk-lassen,pdk-gs-arm"  revision="730f7c77e7fdb66d47e73bf1c70935f56be87255" />
-  <project path="hardware/google/gfxstream" name="hardware_google_gfxstream" groups="pdk" remote="openfde"  />
+  <project path="hardware/google/gfxstream" name="hardware_google_gfxstream" groups="fde,pdk" remote="openfde"  />
   <project path="hardware/google/graphics/common" name="LineageOS/android_hardware_google_graphics_common" groups="pdk-lassen,pdk-gs-arm"  revision="a4c7d42feb38fb18553813d482ce36919da3c8a7" />
   <project path="hardware/google/graphics/gs101" name="platform/hardware/google/graphics/gs101" groups="pdk-lassen,pdk-gs-arm" remote="aosp"  revision="8d8f90a8d6fc6c77a1a18b5e780333d6fad3c73b" />
   <project path="hardware/google/graphics/gs201" name="platform/hardware/google/graphics/gs201" groups="cloudripper" remote="aosp"  revision="cea2c7b94bd554f586539534571b6f4263cba265" />
@@ -1256,7 +1256,7 @@
   <project path="system/tools/xsdc" name="platform/system/tools/xsdc" groups="pdk" remote="aosp"  revision="55f0cfaba235c840724ad224a70783e67c51dfa9" />
   <project path="system/unwinding" name="platform/system/unwinding" groups="pdk" remote="aosp"  revision="8e95104a4f5a56a023b460dc90cc702251bfa1f0" />
   <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk"  revision="e2094a19397a14d378c0404e72dad74d98a45632" />
-  <project path="system/vold" name="LineageOS_android_system_vold" groups="pdk"  remote="openfde" />
+  <project path="system/vold" name="LineageOS_android_system_vold" groups="fde,pdk"  remote="openfde" />
   <project path="test/app_compat/csuite" name="platform/test/app_compat/csuite" groups="pdk" remote="aosp"  revision="fb062e49ef74e4d1110d52ccfcf431140ca4e258" />
   <project path="test/cts-root" name="platform/test/cts-root" remote="aosp"  revision="71c7745f1de0b283f8c90ff3acbc19355c2d3374" />
   <project path="test/dittosuite" name="platform/test/dittosuite" groups="pdk" remote="aosp"  revision="d0291d5f0fce4336be83b5b36a50b63aea5a5854" />
