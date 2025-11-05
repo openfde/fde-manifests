@@ -23,7 +23,7 @@
 	
 <!-- the main repos start -->
   <remote  name="github"
-	  fetch="https://github.com/lineageOS/"
+	  fetch="https://github.com"
            review="review.lineageos.org" />
  <remote  name="aosp"
 	  fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/"
