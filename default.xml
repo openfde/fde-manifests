@@ -34,6 +34,10 @@
            revision="refs/heads/fde_14" />
  <!-- the main repos end -->
 
+ <!-- The 'fde-main' remote is used for the huge repositories that cannot be mirrored on Gitee due to their size/capacity limits.-->
+ <remote name="fde-main"
+	  fetch="https://github.com/openfde/"
+	  revision="refs/heads/fde_w" />
  <remote  name="private"
         fetch="ssh://git@github.com" />
 	
@@ -893,7 +897,7 @@
   <project path="external/zucchini" name="platform/external/zucchini" groups="pdk" remote="aosp"  revision="11a3a4cd409d6e0f4ccfcfb97cc962eeaeddde00" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp"  revision="513427e33d61bc67fc40bc261642ac0b2a686b45" />
   <project path="frameworks/av" name="lineageos_android_frameworks_av" groups="fde,pdk" remote="openfde" />
-  <project path="frameworks/base" name="lineageos_android_frameworks_base" groups="fde,pdk-cw-fs,pdk-fs,sysui-studio" remote="openfde"  />
+  <project path="frameworks/base" name="lineageos_android_frameworks_base" groups="fde,pdk-cw-fs,pdk-fs,sysui-studio" remote="fde-main"  />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp"  revision="2c3f4c361d131e500f6de3c417b819a05d13cf1f" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp"  revision="a40bbbff6e6e115620b12f620d3e9e9a0e7eb20e" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp"  revision="8e9a212552c9096cfeccaacd65dea1d1bca88107" />
@@ -1064,7 +1068,7 @@
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" remote="aosp"  revision="b1b0deb1c285c9d72b4d7ce85db9b36eb1aa0586" />
   <project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" remote="aosp"  revision="0fd20325c8c02610a0bf2021a0d178ac3105a277" />
   <project path="packages/apps/SecureElement" name="platform/packages/apps/SecureElement" groups="apps_se,pdk-fs" remote="aosp"  revision="7fea68a2a8bf25fb3bc4a121a5abe986a8a98cd0" />
-  <project path="packages/apps/Settings" name="lineageos_android_packages_apps_Settings" groups="fde,pdk-fs" remote="openfde"  />
+  <project path="packages/apps/Settings" name="lineageos_android_packages_apps_Settings" groups="fde,pdk-fs" remote="fde-main"  />
   <project path="packages/apps/SettingsIntelligence" name="LineageOS/android_packages_apps_SettingsIntelligence" groups="pdk-fs"  revision="2f2caa0a6524248bfefb63167c4bfcec9c83630b" />
   <project path="packages/apps/Stk" name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs"  revision="12c0bb30b9b54820792f6245e048de42bdf4fc45" />
   <project path="packages/apps/StorageManager" name="platform/packages/apps/StorageManager" groups="pdk-fs" remote="aosp"  revision="0bd95ad34c41fbb9cdd851ff5325fe1bed73b6c1" />
