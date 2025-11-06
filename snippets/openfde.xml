@@ -7,7 +7,7 @@
   <project path="external/libsndfile" name="waydroid_android_external_libsndfile" groups="fde" remote="openfde" />
   <project path="external/pulseaudio" name="waydroid_android_external_pulseaudio" groups="fde" remote="openfde" />
   <project path="external/mesa" name="waydroid_android_external_mesa3d" groups="fde" remote="openfde" />
-  <project path="external/llvm-project" name="waydroid_android_external_llvm-project" groups="fde" remote="openfde" />
+  <project path="external/llvm-project" name="waydroid_android_external_llvm-project" groups="fde-main" remote="openfde" />
   <project path="hardware/openfde" name="hardware_openfde" groups="fde" remote="openfde" />
   <project path="vendor/extra" name="vendor_extra" groups="fde" remote="openfde" />
   <project path="packages/apps/FDECuratedApps" name="packages_apps_FDECuratedApps" groups="fde" remote="openfde" />
