@@ -44,7 +44,7 @@
   <project path="packages/apps/LineageCustomizer" name="LineageOS/android_packages_apps_LineageCustomizer"  revision="6d78f750ddfe8b7b5821a9ce83860755491b8bd8" />
   <project path="packages/apps/LineageParts" name="lineageos_android_packages_apps_lineageparts"  groups="fde"  remote="openfde" />
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles"  revision="74780d633bd2a02f4ddd3d62e937773b130aaa28" />
-  <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder"  revision="ebc2394d1c62ded6ed73a8050fafeed1b5006616" />
+  <project path="packages/apps/Recorder" name="lineageos_android_packages_apps_Recorder"  groups="fde"  remote="openfde" />
   <project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault"  revision="c906fd7834ed027fbc6c4dacea1b15525a882013" />
   <project path="packages/apps/SetupWizard" name="lineageos_packages_apps_SetupWizard" groups="fde"  remote="openfde" />
   <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig"  revision="82d31b18dd2550e05f89248f128cb571eecc863a" />
