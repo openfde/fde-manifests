@@ -34,7 +34,7 @@
   <project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds"  revision="c211db00749b1f81d489c632c5019b2cabba2f6a" />
   <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs"  revision="3c95c27f35e9d426ae3c9858836fa4d510e1ecd7" />
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven"  revision="671f1a6a4ccaf27945d07e3e43b9e22e7bb419fe" />
-  <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar"  revision="7196bc195059da94af1da38329d17bb809d96e68" />
+  <project path="packages/apps/Etar" name="lineageos_android_packages_apps_etar"  groups="fde" remote="openfde" />
   <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator"  revision="760b63bba45f33696707646d7e62d086e9154808" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" revision="1d304d4bb6c4b0d53758622cd7ce2d71795e1dbe" />
   <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap"  revision="bf2e01d1d55e8c59ce28306973bac9ddfadcc129" />
