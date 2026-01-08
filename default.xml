@@ -1113,7 +1113,7 @@
   <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" groups="fde,pdk-cw-fs,pdk-fs" remote="openfde" />
   <project path="packages/modules/NeuralNetworks" name="platform/packages/modules/NeuralNetworks" groups="pdk-cw-fs,pdk-fs" remote="aosp"  revision="4672170986e5cd37ef90adc990288cc09b3047b2" />
   <project path="packages/modules/OnDevicePersonalization" name="platform/packages/modules/OnDevicePersonalization" groups="pdk-cw-fs,pdk-fs" remote="aosp"  revision="21ed7b685584f258aa3c39da1efdb7ab43272ba1" />
-  <project path="packages/modules/Permission" name="LineageOS/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs"  revision="0def8c1cb889eb3f76908b38b9c27b0041f42dd6" />
+  <project path="packages/modules/Permission" name="lineageos_android_packages_modules_Permission" groups="fde" remote="openfde" />
   <project path="packages/modules/Profiling" name="platform/packages/modules/Profiling" groups="pdk" remote="aosp"  revision="92609c87ae155dc21b173cd335b42eb40017e13c" />
   <project path="packages/modules/RemoteKeyProvisioning" name="platform/packages/modules/RemoteKeyProvisioning" groups="pdk-cw-fs,pdk-fs" remote="aosp"  revision="379030fe72cce0ced58a51ee6f528556772b576f" />
   <project path="packages/modules/RuntimeI18n" name="platform/packages/modules/RuntimeI18n" groups="pdk-cw-fs,pdk-fs" remote="aosp"  revision="41d2bb4904b435d2a0cc3779def166b9e6d6b33c" />
