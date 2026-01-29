@@ -1083,7 +1083,7 @@
   <project path="packages/apps/TvSystemUI" name="LineageOS/android_packages_apps_TvSystemUI" groups="pdk-fs"  revision="adddf3323e91d794360bcdb8b5c8bc15bfe7c042" />
   <project path="packages/apps/TV" name="platform/packages/apps/TV" groups="pdk" remote="aosp"  revision="c4da5e25c12ac847e26c0e9dced90a0607bc9e19" />
   <project path="packages/apps/UniversalMediaPlayer" name="platform/packages/apps/UniversalMediaPlayer" remote="aosp"  revision="f702e26a7b8c26a43bb2a1f56a034b54159daaca" />
-  <project path="packages/apps/WallpaperPicker2" name="LineageOS/android_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio"  revision="6f89ba3cd7867ccdb629ce53764b79fe69f5a1a1" />
+  <project path="packages/apps/WallpaperPicker2" name="lineageos_android_packages_apps_WallpaperPicker2" groups="fde,pdk-cw-fs,pdk-fs" remote="openfde" />
   <project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs"  revision="d07a0d3cff8b9b004da6f17843dfa92d0f144906" />
   <project path="packages/inputmethods/LeanbackIME" name="LineageOS/android_packages_inputmethods_LeanbackIME" groups="pdk-fs"  revision="e149bd75e80000e8ce5e1ffe045174c32825924e" />
   <project path="packages/modules/adb" name="LineageOS/android_packages_modules_adb" groups="pdk"  revision="d312257c006bddc7b3f38fd43774259011721a28" />
