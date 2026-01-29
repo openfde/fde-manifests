@@ -1093,7 +1093,7 @@
   <project path="packages/modules/Bluetooth" name="lineageos_packages_modules_Bluetooth" groups="fde,pdk"  remote="openfde" />
   <project path="packages/modules/CaptivePortalLogin" name="platform/packages/modules/CaptivePortalLogin" groups="pdk-cw-fs,pdk-fs" remote="aosp"  revision="db4ac5ad7d3caa76879de01630fd9f0c74a5b574" />
   <project path="packages/modules/CellBroadcastService" name="platform/packages/modules/CellBroadcastService" groups="pdk" remote="aosp"  revision="6a2dd19af8c82b73debe2d1a4dbd1a3b232c5ba7" />
-  <project path="packages/modules/common" name="LineageOS/android_packages_modules_common" groups="pdk-cw-fs,pdk-fs"  revision="722642177b706716fa79a26938d363d438f2c90a" />
+  <project path="packages/modules/common" name="lineageos_android_packages_modules_common" groups="fde" remote="openfde" />
   <project path="packages/modules/ConfigInfrastructure" name="platform/packages/modules/ConfigInfrastructure" groups="pdk-cw-fs,pdk-fs" remote="aosp"  revision="7671cc7268a9b074813e190884a17d3084d876c3" />
   <project path="packages/modules/Connectivity" name="lineageos_android_packages_modules_Connectivity" groups="fde,pdk-cw-fs,pdk-fs" remote="openfde"  />
   <project path="packages/modules/CrashRecovery" name="platform/packages/modules/CrashRecovery" groups="pdk-cw-fs,pdk-fs" remote="aosp"  revision="fdeeab4c41dad3a5dc33acff30aa27b28cc807f2" />
