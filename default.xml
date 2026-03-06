@@ -953,7 +953,7 @@
   <project path="hardware/interfaces" name="lineageos_android_hardware_interfaces" groups="fde,pdk,sysui-studio" remote="openfde" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" remote="aosp"  revision="02424279a734a0cb64681cf11d5208a917662433" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral,generic_fs" remote="aosp"  revision="22e1e4a11c3d5dc3d25747054065e03e680c62d6" />
-  <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk"  revision="b923f817e9a095748f7ee86600586c9ff1c56c01" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="fde"  remote="openfde" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="aosp"  revision="d38a44065863ae6edd31b758aa4049ea49dcc764" />
   <project path="hardware/nxp/keymint" name="platform/hardware/nxp/keymint" groups="pdk" remote="aosp"  revision="13e2bde7ff9176a1ef37b1615c0e08c60ed1f318" />
   <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" groups="pdk" remote="aosp"  revision="418bd01a4c681adc7ae0e0278041a9534d34306f" />
