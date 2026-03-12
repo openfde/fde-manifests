@@ -1069,7 +1069,7 @@
   <project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" remote="aosp"  revision="0fd20325c8c02610a0bf2021a0d178ac3105a277" />
   <project path="packages/apps/SecureElement" name="platform/packages/apps/SecureElement" groups="apps_se,pdk-fs" remote="aosp"  revision="7fea68a2a8bf25fb3bc4a121a5abe986a8a98cd0" />
   <project path="packages/apps/Settings" name="lineageos_android_packages_apps_Settings" groups="fde,pdk-fs" remote="fde-main"  />
-  <project path="packages/apps/SettingsIntelligence" name="LineageOS/android_packages_apps_SettingsIntelligence" groups="pdk-fs"  revision="2f2caa0a6524248bfefb63167c4bfcec9c83630b" />
+  <project path="packages/apps/SettingsIntelligence" name="lineageos_android_packages_apps_SettingsIntelligence" groups="fde,pdk-fs" remote="openfde"  />
   <project path="packages/apps/Stk" name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs"  revision="12c0bb30b9b54820792f6245e048de42bdf4fc45" />
   <project path="packages/apps/StorageManager" name="platform/packages/apps/StorageManager" groups="pdk-fs" remote="aosp"  revision="0bd95ad34c41fbb9cdd851ff5325fe1bed73b6c1" />
   <project path="packages/apps/SystemUIGo" name="platform/packages/apps/SystemUIGo" groups="pdk-fs" remote="aosp"  revision="b021ce4c8b6e286accb87cf99de1ec7dfff8c853" />
