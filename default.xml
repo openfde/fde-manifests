@@ -1021,7 +1021,7 @@
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" groups="pdk" clone-depth="1" remote="aosp"  revision="c1b6f17450d64bb1c368b48aae97055563e5043e" />
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" groups="pdk" clone-depth="1" remote="aosp"  revision="8686f19c255c36095c0dcf087901a5a8f7a00750" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" remote="aosp"  revision="c34dac6e2a701ef73b6b27c71615ef16e997a73d" />
-  <project path="libcore" name="LineageOS/android_libcore" groups="pdk"  revision="6b98754e32039ed5f72d48a642fac90c4b014e7c" />
+  <project path="libcore" name="android_libcore" groups="fde" remote="openfde" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp"  revision="bd5a40c2b66bfe47123a22f35496ffe890be31ff" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="aosp"  revision="ea13485e203eaed509230326e974605212ca9b24" />
   <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" remote="aosp"  revision="86b1768168c91239ef11b922794fee20192cf9d9" />
