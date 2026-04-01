@@ -26,7 +26,7 @@
 	  fetch="https://github.com"
            review="review.lineageos.org" />
  <remote  name="aosp"
-	  fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/"
+	  fetch=" https://android.googlesource.com/"
            review="android-review.googlesource.com"
            revision="refs/tags/android-14.0.0_r67" />
   <remote  name="openfde"
