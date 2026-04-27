@@ -17,6 +17,8 @@
   <project path="external/ffmpeg_codec2" name="external_ffmpeg_codec2" groups="fde" remote="openfde" />
   <project path="prebuilts/mesa-tools" name="prebuilts_mesa-tools" groups="fde" remote="openfde" />
 
+  <project path="external/glibc-adapter" name="glibc-adapter" groups="fde" remote="openfde" />
+  <project path="external/fde-hybris" name="fde-hybris" groups="fde" remote="openfde" />
   
 </manifest>
 
