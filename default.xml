@@ -73,7 +73,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="art" name="LineageOS/android_art" groups="pdk"  revision="0abc6e9ecd0bdf2414966af6f9e850a05f88413f" />
-  <project path="bionic" name="LineageOS/android_bionic" groups="pdk"  revision="c9fb1e8640d34e81966f3ff874bc310cabc151bf" />
+  <project path="bionic" name="android_bionic" groups="fde" remote="openfde" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk"  revision="8d9befac75660d6c62817dc16389c876f73e8f48" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" remote="aosp"  revision="c36e79579ab4e0047510bc2f3d4b9083aeffd551" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp"  revision="f1da77ef4dd31b8e01e8583704596027eea02951" />
@@ -846,7 +846,7 @@
   <project path="external/strace" name="platform/external/strace" groups="pdk" remote="aosp"  revision="49eb4d6a8baaa85e046f0a9fe9751da7dcce0275" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk" remote="aosp"  revision="760c6520dd6231d3ed15fc7d42a16cdc8587bbb4" />
   <project path="external/subsampling-scale-image-view" name="platform/external/subsampling-scale-image-view" groups="pdk" clone-depth="1" remote="aosp"  revision="af6e4abba82e7811dbfe7dc7b93e146946bd7c78" />
-  <project path="external/swiftshader" name="platform/external/swiftshader" groups="pdk" remote="aosp"  revision="07f12032dff80d37432e4655fd2dcb867d931ff0" />
+  <project path="external/swiftshader" name="waydroid_android_external_swiftshader" groups="fde" remote="openfde" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk" remote="aosp"  revision="5c387116e235ff706ba0baf63a9883b72c872490" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk" remote="aosp"  revision="05b00f6010a2396e3db2409989fc67270046269f" />
   <project path="external/tensorflow" name="platform/external/tensorflow" groups="pdk" remote="aosp"  revision="04440f6c23fba8818ab70b9d3edfb0b32a506d77" />
