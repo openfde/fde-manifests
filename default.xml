@@ -1164,7 +1164,7 @@
   <project path="prebuilts/bazel/common" name="platform/prebuilts/bazel/common" groups="pdk" clone-depth="1" remote="aosp"  revision="412a875da5a1632c7fadcc1eb91abba4cf650356" />
   <project path="prebuilts/bazel/darwin-x86_64" name="platform/prebuilts/bazel/darwin-x86_64" groups="darwin,pdk" clone-depth="1" remote="aosp"  revision="2e9eda81659bcca9045ca254009cc6641e995a25" />
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" groups="linux,pdk" clone-depth="1" remote="aosp"  revision="5c92123af5646d469fc53ef61994f5bca0306f66" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="pdk,sysui-studio" clone-depth="1" remote="aosp"  revision="84d04c76b72691cf1f4639c12bda519930229e09" />
+  <project path="prebuilts/build-tools" name="prebuilts_build-tools" groups="fde,pdk,sysui-studio" clone-depth="1" remote="openfde" />
   <project path="prebuilts/bundletool" name="platform/prebuilts/bundletool" groups="pdk" clone-depth="1" remote="aosp"  revision="4d55b55cd444c97bc021d35316010f57f62d7844" />
   <project path="prebuilts/checkcolor" name="platform/prebuilts/checkcolor" groups="pdk,sysui-studio" clone-depth="1" remote="aosp"  revision="47d4cfb86c5001ef70ef9f9fbed6db04209f1775" />
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" groups="pdk,sysui-studio" clone-depth="1" remote="aosp"  revision="ea4b5cc2fa5d0d226ba5d6f52da58c9685261ef4" />
