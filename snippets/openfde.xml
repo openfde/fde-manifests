@@ -12,6 +12,10 @@
   <project path="vendor/extra" name="vendor_extra" groups="fde" remote="openfde" />
   <project path="packages/apps/FDECuratedApps" name="packages_apps_FDECuratedApps" groups="fde" remote="openfde" />
   <project path="packages/apps/FDELinuxAppLauncher" name="android_packages_apps_FDELinuxAppLauncher" groups="fde" remote="openfde" />
+  <project path="external/libva" name="external_libva" groups="fde" remote="openfde" />
+  <project path="external/ffmpeg" name="waydroid_android_external_ffmpeg" groups="fde" remote="openfde" />
+  <project path="external/ffmpeg_codec2" name="external_ffmpeg_codec2" groups="fde" remote="openfde" />
+  <project path="prebuilts/mesa-tools" name="prebuilts_mesa-tools" groups="fde" remote="openfde" />
 
   
 </manifest>
