@@ -15,7 +15,7 @@
            revision="refs/tags/android-14.0.0_r67" />
   <remote name="openfde"
 	  fetch="https://gitee.com/openfde/"
-	  revision="refs/heads/fde_14" />
+	  revision="refs/tags/2.0.9" />
 	-->
 	
 <!-- the mirrors repos end -->
@@ -31,13 +31,13 @@
            revision="refs/tags/android-14.0.0_r67" />
   <remote  name="openfde"
 	  fetch="https://github.com/openfde/"
-           revision="refs/heads/fde_14" />
+           revision="refs/tags/2.0.9" />
  <!-- the main repos end -->
 
  <!-- The 'fde-main' remote is used for the huge repositories that cannot be mirrored on Gitee due to their size/capacity limits.-->
  <remote name="fde-main"
 	  fetch="https://github.com/openfde/"
-	  revision="refs/heads/fde_14" />
+	  revision="refs/tags/2.0.9" />
  <remote  name="private"
         fetch="ssh://git@github.com" />
 	
