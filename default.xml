@@ -31,7 +31,7 @@
            revision="refs/tags/android-11.0.0_r46" />
 
   <remote  name="fde"
-	  fetch="https://github.com/openfde/"
+	  fetch="https://github.com/openfde"
 	  revision="refs/heads/fde_w" />
   <!-- the main repos end -->
 

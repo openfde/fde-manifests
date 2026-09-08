@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <project path="device/openfde/fde" name="device_fde" groups="fde,openfde" remote="fde"  />
-    <project path="device/openfde/ftg340" name="device_openfde_prebuilt_ftg340" groups="fde,openfde" remote="fde"  >
+    <project path="device/openfde/ftg340" name="device_openfde_prebuilt_ftg340" groups="fde,openfde" remote="fde" revision="1.1.21_fde_w  >
     </project>
     <project path="packages/apps/FdePreInstaller" name="android_packages_apps_FdePreInstaller" groups="fde,openfde" remote="fde" />
 </manifest>
