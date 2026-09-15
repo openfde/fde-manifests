@@ -34,7 +34,7 @@
   <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/art" />
 
-  <project path="device/openfde/fde" name="device_openfde_fde" groups="fde" remote="openfde" />
+  <project path="device/openfde/fde" name="device_fde" groups="fde" remote="openfde" />
   <project path="external/mesa" name="waydroid_android_external_mesa3d" groups="fde" remote="openfde" />
   <project path="external/llvm-project" name="waydroid_android_external_llvm_project" groups="fde" remote="openfde" />
   <project path="prebuilts/mesa-tools" name="prebuilts_mesa-tools" groups="fde" remote="openfde" />
