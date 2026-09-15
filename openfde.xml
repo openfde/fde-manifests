@@ -76,6 +76,6 @@
   <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" groups="pdk-cw-fs,pdk-fs,fde" remote="openfde" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio,fde" remote="openfde" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk,fde" remote="openfde" />
-  <project path="art" name="art" groups="pdk,fde" remote="openfde" />
+  <project path="art" name="android_art" groups="pdk,fde" remote="openfde" />
 </manifest>
 
