@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+
+<!-- uncomment the mirrors repos and comment the main repos by to switch  -->
+
+<!-- the mirrors repos start -->
+	
+<!-- 
   <remote  name="aosp"
            fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-17.0.0_r1"
            remote="aosp"
            sync-j="4" />
+  <remote name="openfde"
+	  fetch="https://gitee.com/openfde/"
+	  revision="refs/heads/fde_17" />
+	-->
+	
+<!-- the mirrors repos end -->
+
+	
+<!-- the main repos start -->
+ <remote  name="aosp"
+	  fetch=" https://android.googlesource.com/"
+           review="android-review.googlesource.com" />
+  <default revision="refs/tags/android-17.0.0_r1"
+           remote="aosp"
+           sync-j="4" />
+  <remote  name="openfde"
+	  fetch="https://github.com/openfde/"
+           revision="refs/heads/fde_17" />
+ <!-- the main repos end -->
+
+ <!-- The 'fde-main' remote is used for the huge repositories that cannot be mirrored on Gitee due to their size/capacity limits.-->
+ <remote name="fde-main"
+	  fetch="https://github.com/openfde/"
+	  revision="refs/heads/fde_17" />
+
   <superproject name="platform/superproject" remote="aosp" revision="android-17.0.0_r1"/>
   <contactinfo bugurl="go/repo-bug" />
   <!-- BEGIN open-source projects -->
