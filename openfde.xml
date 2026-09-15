@@ -44,7 +44,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="external/minigbm" name="waydroid_android_external_minigbm" groups="pdk,fde" remote="openfde" />
-  <project path="external/selinux" name="platform_external_selinux " groups="pdk,fde" remote="openfde" />
+  <project path="external/selinux" name="platform_external_selinux" groups="pdk,fde" remote="openfde" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk,sysui-studio,fde" remote="openfde" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs,fde" remote="openfde" />
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs,fde" remote="openfde" />
