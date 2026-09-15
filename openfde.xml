@@ -35,7 +35,7 @@
   <remove-project name="platform/art" />
 
   <project path="device/openfde/fde" name="device_openfde_fde" groups="fde" remote="openfde" />
-  <project path="external/mesa" name="external_mesa" groups="fde" remote="openfde" />
+  <project path="external/mesa" name="waydroid_android_external_mesa3d" groups="fde" remote="openfde" />
   <project path="external/llvm-project" name="waydroid_android_external_llvm_project" groups="fde" remote="openfde" />
   <project path="prebuilts/mesa-tools" name="prebuilts_mesa-tools" groups="fde" remote="openfde" />
   <project path="build/release" name="build_release" groups="pdk,tradefed,sysui-studio,fde" remote="openfde" />
@@ -43,8 +43,8 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="external/minigbm" name="external_minigbm" groups="pdk,fde" remote="openfde" />
-  <project path="external/selinux" name="external_selinux" groups="pdk,fde" remote="openfde" />
+  <project path="external/minigbm" name="waydroid_android_external_minigbm" groups="pdk,fde" remote="openfde" />
+  <project path="external/selinux" name="platform_external_selinux " groups="pdk,fde" remote="openfde" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk,sysui-studio,fde" remote="openfde" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs,fde" remote="openfde" />
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs,fde" remote="openfde" />
@@ -52,13 +52,13 @@
   <project path="system/apex" name="system_apex" groups="pdk,fde" remote="openfde" />
   <project path="system/bpf" name="system_bpf" groups="pdk,fde" remote="openfde" />
   <project path="system/fs/fs_mgr" name="system_fs_fs_mgr" groups="pdk,fde" remote="openfde" />
-  <project path="system/core" name="system_core" groups="pdk,fde" remote="openfde" />
-  <project path="system/hwservicemanager" name="system_hwservicemanager" groups="pdk,fde" remote="openfde" />
-  <project path="system/libhwbinder" name="system_libhwbinder" groups="pdk,fde" remote="openfde" />
-  <project path="system/libvintf" name="system_libvintf" groups="pdk,fde" remote="openfde" />
+  <project path="system/core" name="platform_system_core" groups="pdk,fde" remote="openfde" />
+  <project path="system/hwservicemanager" name="platform_system_hwservicemanager" groups="pdk,fde" remote="openfde" />
+  <project path="system/libhwbinder" name="platform_system_libhwbinder" groups="pdk,fde" remote="openfde" />
+  <project path="system/libvintf" name="platform_system_libvintf" groups="pdk,fde" remote="openfde" />
   <project path="system/memory/libmeminfo" name="system_memory_libmeminfo" groups="pdk,fde" remote="openfde" />
-  <project path="system/netd" name="system_netd" groups="pdk,fde" remote="openfde" />
-  <project path="external/wayland-protocols" name="external_wayland-protocols" groups="pdk,fde" remote="openfde" />
+  <project path="system/netd" name="platform_system_netd" groups="pdk,fde" remote="openfde" />
+  <project path="external/wayland-protocols" name="platform_external_wayland-protocols" groups="pdk,fde" remote="openfde" />
   <project path="hardware/openfde" name="hardware_openfde" groups="fde" remote="openfde" />
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk,sysui-studio,fde" remote="openfde" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio,fde" remote="openfde" />
