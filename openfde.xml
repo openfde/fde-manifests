@@ -32,6 +32,7 @@
   <remove-project name="platform/packages/modules/NetworkStack" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/modules/Bluetooth" />
+  <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/art" />
 
   <project path="device/openfde/fde" name="device_fde" groups="fde" remote="openfde" />
@@ -63,6 +64,8 @@
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk,sysui-studio,fde" remote="openfde" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio,fde" remote="openfde" />
   <project path="packages/apps/Launcher3" name="packages_apps_launcher3" groups="pdk-cw-fs,pdk-fs,sysui-studio,fde" remote="openfde" />
+  <project path="packages/apps/BoringdroidSystemUI" name="boringdroidsystemui" groups="fde" remote="openfde" />
+  <project path="packages/apps/TaskPlugin" name="packages_apps_TaskPlugin" groups="fde" remote="openfde" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_documentsui" groups="pdk-cw-fs,pdk-fs,sysui-studio,fde" remote="openfde" />
   <project path="openfde-sdk" name="openfde-sdk" groups="fde" remote="openfde" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk,sysui-studio,fde" remote="openfde" />
@@ -77,5 +80,6 @@
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio,fde" remote="openfde" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk,fde" remote="openfde" />
   <project path="art" name="android_art" groups="pdk,fde" remote="openfde" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs,fde" remote="openfde" />
 </manifest>
 
