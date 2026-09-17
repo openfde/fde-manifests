@@ -33,7 +33,7 @@
            revision="refs/heads/fde_17" />
  <!-- the main repos end -->
 
- <!-- The 'fde-main' remote is used for the huge repositories that cannot be mirrored on Gitee due to their size/capacity limits.-->
+ <!-- The 'fde-main' remote is used for the large-capacity repositories that cannot be mirrored on Gitee due to their size/capacity limits.-->
  <remote name="fde-main"
 	  fetch="https://github.com/openfde/"
 	  revision="refs/heads/fde_17" />
