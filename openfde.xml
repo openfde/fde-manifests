@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="openfde"
-	  fetch="https://github.com/openfde/"
-           revision="refs/heads/fde_17" />
   <!-- remove unused projects -->
   <remove-project name="platform/external/mesa3d" />
   <remove-project name="platform/build/release" />
@@ -39,7 +36,7 @@
   <project path="device/openfde/fde" name="device_fde" groups="fde" remote="openfde" />
   <project path="external/skia" name="lineageos_android_external_skia" groups="fde" remote="openfde" />
   <project path="external/mesa" name="waydroid_android_external_mesa3d" groups="fde" remote="openfde" />
-  <project path="external/llvm-project" name="waydroid_android_external_llvm_project" groups="fde" remote="openfde" />
+  <project path="external/llvm-project" name="waydroid_android_external_llvm_project" groups="fde" remote="fde-main" />
   <project path="prebuilts/mesa-tools" name="prebuilts_mesa-tools" groups="fde" remote="openfde" />
   <project path="build/release" name="build_release" groups="pdk,tradefed,sysui-studio,fde" remote="openfde" />
   <project path="build/soong" name="build_soong" groups="pdk,tradefed,sysui-studio,fde" remote="openfde" >
@@ -64,7 +61,7 @@
   <project path="external/wayland-protocols" name="platform_external_wayland-protocols" groups="pdk,fde" remote="openfde" />
   <project path="hardware/openfde" name="hardware_openfde" groups="fde" remote="openfde" />
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk,sysui-studio,fde" remote="openfde" />
-  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio,fde" remote="openfde" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio,fde" remote="fde-main" />
   <project path="packages/apps/Launcher3" name="packages_apps_launcher3" groups="pdk-cw-fs,pdk-fs,sysui-studio,fde" remote="openfde" />
   <project path="packages/apps/BoringdroidSystemUI" name="boringdroidsystemui" groups="fde" remote="openfde" />
   <project path="packages/apps/TaskPlugin" name="packages_apps_TaskPlugin" groups="fde" remote="openfde" />
@@ -76,7 +73,7 @@
   <project path="external/alsa-plugins" name="external_alsa-plugins" groups="fde" remote="openfde" />
   <project path="external/libsndfile" name="external_libsndfile" groups="fde" remote="openfde" />
   <project path="external/pulseaudio" name="external_pulseaudio" groups="fde" remote="openfde" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio,fde" remote="openfde" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio,fde" remote="fde-main />
   <project path="device/openfde/ftg340" name="device_openfde_prebuilt_ftg340" groups="fde" remote="openfde" />
   <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" groups="pdk-cw-fs,pdk-fs,fde" remote="openfde" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio,fde" remote="openfde" />
