@@ -73,7 +73,7 @@
   <project path="external/alsa-plugins" name="external_alsa-plugins" groups="fde" remote="openfde" />
   <project path="external/libsndfile" name="external_libsndfile" groups="fde" remote="openfde" />
   <project path="external/pulseaudio" name="external_pulseaudio" groups="fde" remote="openfde" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio,fde" remote="fde-main />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio,fde" remote="fde-main" />
   <project path="device/openfde/ftg340" name="device_openfde_prebuilt_ftg340" groups="fde" remote="openfde" />
   <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" groups="pdk-cw-fs,pdk-fs,fde" remote="openfde" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio,fde" remote="openfde" />
