@@ -67,6 +67,8 @@
   <project path="packages/apps/TaskPlugin" name="packages_apps_TaskPlugin" groups="fde" remote="openfde" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_documentsui" groups="pdk-cw-fs,pdk-fs,sysui-studio,fde" remote="openfde" />
   <project path="packages/apps/FdeGallery" name="packages_apps_fdegallery" groups="fde" remote="openfde" />
+  <project path="packages/apps/FDECuratedApps" name="packages_apps_FDECuratedApps" groups="fde" remote="openfde" />
+  <project path="packages/apps/FDELinuxAppLauncher" name="android_packages_apps_FDELinuxAppLauncher" groups="fde" remote="openfde" />
   <project path="openfde-sdk" name="openfde-sdk" groups="fde" remote="openfde" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk,sysui-studio,fde" remote="openfde" />
   <project path="external/json-c" name="external_json-c" groups="fde" remote="openfde" />
