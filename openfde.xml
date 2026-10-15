@@ -72,6 +72,7 @@
   <project path="packages/apps/TaskManager" name="packages_apps_TaskManager" groups="fde" remote="openfde" />
   <project path="packages/apps/FDECuratedApps" name="packages_apps_FDECuratedApps" groups="fde" remote="openfde" />
   <project path="packages/apps/FDELinuxAppLauncher" name="android_packages_apps_FDELinuxAppLauncher" groups="fde" remote="openfde" />
+  <project path="packages/apps/WallpaperPicker2" name="lineageos_android_packages_apps_WallpaperPicker2" groups="fde" remote="openfde" />
   <project path="openfde-sdk" name="openfde-sdk" groups="fde" remote="openfde" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk,sysui-studio,fde" remote="openfde" />
   <project path="external/json-c" name="external_json-c" groups="fde" remote="openfde" />
