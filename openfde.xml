@@ -32,6 +32,8 @@
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/art" />
   <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/libva" />
+  <remove-project name="platform/external/libva-utils" />
 
   <project path="device/openfde/fde" name="device_fde" groups="fde" remote="openfde" />
   <project path="external/skia" name="lineageos_android_external_skia" groups="fde" remote="openfde" />
@@ -84,5 +86,9 @@
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk,fde" remote="openfde" />
   <project path="art" name="art" groups="pdk,fde" remote="openfde" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs,fde" remote="openfde" />
+  <project path="external/ffmpeg" name="waydroid_android_external_ffmpeg" groups="fde" remote="openfde" />
+  <project path="external/ffmpeg_codec2" name="external_ffmpeg_codec2" groups="fde" remote="openfde" />
+  <project path="external/libva" name="external_libva" groups="pdk,fde" remote="openfde" />
+  <project path="external/libva-utils" name="external_libva-utils" groups="pdk,fde" remote="openfde" />
 </manifest>
 
