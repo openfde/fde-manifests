@@ -68,6 +68,7 @@
   <project path="packages/apps/Launcher3" name="packages_apps_launcher3" groups="pdk-cw-fs,pdk-fs,sysui-studio,fde" remote="openfde" />
   <project path="packages/apps/BoringdroidSystemUI" name="boringdroidsystemui" groups="fde" remote="openfde" />
   <project path="packages/apps/TaskPlugin" name="packages_apps_TaskPlugin" groups="fde" remote="openfde" />
+  <project path="packages/apps/FdeAiAgent" name="packages_apps_FdeAiAgent" groups="fde" remote="openfde" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_documentsui" groups="pdk-cw-fs,pdk-fs,sysui-studio,fde" remote="openfde" />
   <project path="packages/apps/FdeGallery" name="packages_apps_fdegallery" groups="fde" remote="openfde" />
   <project path="packages/apps/TaskManager" name="packages_apps_TaskManager" groups="fde" remote="openfde" />
