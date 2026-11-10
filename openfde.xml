@@ -26,6 +26,7 @@
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/modules/NetworkStack" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/modules/Bluetooth" />
