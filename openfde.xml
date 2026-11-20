@@ -36,10 +36,14 @@
   <remove-project name="platform/external/libva" />
   <remove-project name="platform/external/libva-utils" />
   <remove-project name="platform/build" />
+  <remove-project name="bionic" />
+  <remove-project name="external/swiftshader" />
 
+  <project path="bionic" name="android_bionic" groups="fde" remote="openfde" />
   <project path="device/openfde/fde" name="device_fde" groups="fde" remote="openfde" />
   <project path="external/skia" name="lineageos_android_external_skia" groups="fde" remote="openfde" />
   <project path="external/mesa" name="waydroid_android_external_mesa3d" groups="fde" remote="openfde" />
+  <project path="external/swiftshader" name="waydroid_android_external_swiftshader" groups="fde" remote="openfde" />
   <project path="external/llvm-project" name="waydroid_android_external_llvm_project" groups="fde" remote="fde-main" />
   <project path="prebuilts/mesa-tools" name="prebuilts_mesa-tools" groups="fde" remote="openfde" />
   <project path="build/release" name="build_release" groups="pdk,tradefed,sysui-studio,fde" remote="openfde" />
